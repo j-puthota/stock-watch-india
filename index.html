@@ -14,21 +14,12 @@
   </head>
   <body>
     <div class="page-shell">
-      <header class="hero">
-        <div class="hero-copy hero-copy-compact">
-          <div>
-            <p class="eyebrow">Simple Stock Watchlist for India</p>
-            <h1>Track possible opportunities without the clutter.</h1>
-            <p class="hero-text compact">
-              Clear cards, plain-English signals, and financial stability markers. Built for easy reading, not trading
-              noise.
-            </p>
-          </div>
-          <div class="hero-actions compact">
-            <a class="primary-action" href="#stocks">View Stock Cards</a>
-            <a class="secondary-action" href="#build">How To Build It Free</a>
-          </div>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Simple Stock Watchlist for India</p>
+          <h1>Top stock ideas with clear reasons and financial health markers.</h1>
         </div>
+        <p class="note topbar-note">Showing the highest-ranked cards first. Demo values update from JSON, not live feeds.</p>
       </header>
 
       <section class="summary-strip" aria-label="Summary">
@@ -37,15 +28,15 @@
           <strong id="total-count">0 Stocks</strong>
         </div>
         <div class="metric-card">
-          <span class="metric-label">Profitable</span>
+          <span class="metric-label">Top Picks Loaded</span>
           <strong id="profitable-count">0</strong>
         </div>
         <div class="metric-card">
-          <span class="metric-label">Stable Picks</span>
+          <span class="metric-label">High Stability</span>
           <strong id="stable-count">0</strong>
         </div>
         <p class="note summary-note">
-          Demo values are illustrative. For a real version, update the JSON once daily after market close.
+          Click “Show 10 more” to continue through the ranked list.
         </p>
       </section>
 
@@ -145,40 +136,13 @@
         <section id="stocks" class="stocks-section" aria-labelledby="stocks-title">
           <div class="section-heading">
             <p class="section-kicker">Stock Cards</p>
-            <h2 id="stocks-title">Short-term, long-term, and watchlist ideas.</h2>
+            <h2 id="stocks-title">Top recommended cards first.</h2>
           </div>
           <div id="stock-grid" class="stock-grid" aria-live="polite">
             <div class="empty-state">Loading stock cards...</div>
           </div>
-        </section>
-
-        <section id="build" class="build-section" aria-labelledby="build-title">
-          <div class="section-heading">
-            <p class="section-kicker">Build With AI</p>
-            <h2 id="build-title">The lowest-maintenance way to turn this into a real product.</h2>
-          </div>
-          <div class="build-grid">
-            <article class="build-card">
-              <h3>1. Design the first version with AI</h3>
-              <p>
-                Use Firebase Studio or v0 to generate the interface from a prompt. Keep the app static at first so
-                there are no user logins, no backend, and almost no maintenance.
-              </p>
-            </article>
-            <article class="build-card">
-              <h3>2. Precompute the stock data daily</h3>
-              <p>
-                Pull official filings and market data after market close, generate a JSON file, and publish the new
-                cards once a day instead of on every visit.
-              </p>
-            </article>
-            <article class="build-card">
-              <h3>3. Deploy it free</h3>
-              <p>
-                Host the static site on Cloudflare Pages or GitHub Pages. This is the cheapest and easiest path for a
-                simple public website.
-              </p>
-            </article>
+          <div class="load-more-wrap">
+            <button id="load-more-button" class="secondary-action" type="button">Show 10 More</button>
           </div>
         </section>
       </main>
@@ -197,6 +161,7 @@
             <strong class="stock-price"></strong>
             <span class="stock-change"></span>
             <span class="stock-prev-close"></span>
+            <span class="stock-score"></span>
           </div>
         </header>
 

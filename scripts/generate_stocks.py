@@ -59,6 +59,59 @@ def numeric_like(value):
         return None
 
 
+def compute_score(stock):
+    score = 50
+    debt_value = numeric_like(stock["debtToEquity"])
+    roe_value = numeric_like(stock["roe"])
+
+    if stock["profitStatus"] == "Profitable":
+        score += 12
+    else:
+        score -= 18
+
+    if stock["operatingCashFlow"] == "Positive":
+        score += 10
+    elif stock["operatingCashFlow"] == "Negative":
+        score -= 10
+
+    if stock["volumeBucket"] == "Volume Spike":
+        score += 8
+    elif stock["volumeBucket"] == "High Volume":
+        score += 6
+    else:
+        score -= 4
+
+    if stock["stability"] == "High":
+        score += 14
+    elif stock["stability"] == "Medium":
+        score += 5
+    else:
+        score -= 10
+
+    if debt_value is not None:
+        if debt_value <= 0.3:
+            score += 10
+        elif debt_value <= 1.2:
+            score += 3
+        elif debt_value > 3:
+            score -= 8
+
+    if roe_value is not None:
+        if roe_value >= 20:
+            score += 10
+        elif roe_value >= 12:
+            score += 5
+        elif roe_value < 8:
+            score -= 6
+
+    if stock["bucket"] == "Long Term":
+        score += 8
+    elif stock["bucket"] == "Short Term":
+        score += 5
+
+    return max(1, min(99, round(score)))
+
+
 def fallback_classification(stock):
     debt_value = numeric_like(stock["debtToEquity"])
     roe_value = numeric_like(stock["roe"])
@@ -237,8 +290,10 @@ def build_output():
 
         merged = dict(stock)
         merged.update(ai_fields)
+        merged["recommendationScore"] = compute_score(merged)
         output.append(merged)
 
+    output.sort(key=lambda item: item["recommendationScore"], reverse=True)
     OUTPUT_PATH.write_text(json.dumps(output, indent=2))
     print(f"Wrote {len(output)} stocks to {OUTPUT_PATH}")
 

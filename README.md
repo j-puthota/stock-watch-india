@@ -20,6 +20,7 @@ A lightweight static prototype for an Indian stock watchlist web app aimed at ol
 - `app.js` loads `data/stocks.json` and handles client-side filtering
 - `data/company_snapshots.json` contains the base stock inputs
 - `data/stocks.json` contains the generated card data shown on the site
+- `scripts/seed_company_snapshots.py` creates a larger demo universe of 100+ Indian stocks
 - `scripts/generate_stocks.py` builds `data/stocks.json`
 - `.github/workflows/update-stocks.yml` runs the daily refresh
 
@@ -79,6 +80,7 @@ GEMINI_MODEL=gemini-2.0-flash
 ### What the workflow does
 
 - reads `data/company_snapshots.json`
+- can regenerate the 100+ stock demo universe first
 - uses OpenAI, Gemini, or a built-in fallback classifier
 - writes the final card file to `data/stocks.json`
 - commits the updated JSON back to the repository

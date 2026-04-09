@@ -1,263 +1,4081 @@
 [
   {
-    "name": "Infosys",
-    "symbol": "INFY",
+    "name": "TCS",
+    "symbol": "TCS",
     "sector": "Information Technology",
-    "price": "Rs1,648",
-    "previousClose": "Rs1,619",
-    "dayChange": 1.8,
+    "price": "Rs757",
+    "previousClose": "Rs755",
+    "dayChange": 0.2,
     "priceBucket": "Rs500-2000",
     "volumeBucket": "High Volume",
     "profitStatus": "Profitable",
     "revenueTrend": "Up 7% YoY",
-    "netProfitTrend": "Up 9% YoY",
-    "debtToEquity": "0.09",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.15",
     "operatingCashFlow": "Positive",
-    "roe": "29.4%",
+    "roe": "20.6%",
     "promoterPledge": "0%",
-    "high52w": "Rs1,732",
-    "low52w": "Rs1,358",
-    "weekHigh": "Rs1,651",
-    "weekLow": "Rs1,579",
+    "high52w": "Rs893",
+    "low52w": "Rs477",
+    "weekHigh": "Rs783",
+    "weekLow": "Rs722",
     "highlights": [
-      "Large-cap IT company with strong cash generation.",
-      "Low debt and no promoter pledge improve quality.",
-      "High trading activity supports easier tracking."
+      "Information Technology exposure keeps TCS on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "Global IT spending can soften during slower business cycles."
+      "Review the latest filings and management commentary before acting."
     ],
     "bucket": "Long Term",
     "stability": "High",
     "evidence": [
-      "Large-cap IT company with strong cash generation.",
-      "Low debt and no promoter pledge improve quality.",
-      "High trading activity supports easier tracking."
-    ]
+      "Information Technology exposure keeps TCS on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
   },
   {
-    "name": "Tata Motors",
-    "symbol": "TATAMOTORS",
-    "sector": "Automobile",
-    "price": "Rs1,024",
-    "previousClose": "Rs1,000",
-    "dayChange": 2.4,
+    "name": "Infosys",
+    "symbol": "INFY",
+    "sector": "Information Technology",
+    "price": "Rs192",
+    "previousClose": "Rs195",
+    "dayChange": -1.2,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "24.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs244",
+    "low52w": "Rs131",
+    "weekHigh": "Rs199",
+    "weekLow": "Rs184",
+    "highlights": [
+      "Information Technology exposure keeps Infosys on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps Infosys on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "ITC",
+    "symbol": "ITC",
+    "sector": "Consumer Staples",
+    "price": "Rs824",
+    "previousClose": "Rs820",
+    "dayChange": 0.5,
     "priceBucket": "Rs500-2000",
     "volumeBucket": "Volume Spike",
     "profitStatus": "Profitable",
-    "revenueTrend": "Up 12% YoY",
-    "netProfitTrend": "Up 14% YoY",
-    "debtToEquity": "1.18",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "0.13",
     "operatingCashFlow": "Positive",
-    "roe": "19.1%",
+    "roe": "23.2%",
     "promoterPledge": "0%",
-    "high52w": "Rs1,065",
-    "low52w": "Rs718",
-    "weekHigh": "Rs1,024",
-    "weekLow": "Rs972",
+    "high52w": "Rs1,071",
+    "low52w": "Rs540",
+    "weekHigh": "Rs832",
+    "weekLow": "Rs799",
     "highlights": [
-      "Momentum and volume both increased recently.",
-      "Profit growth is still healthy.",
-      "Auto updates can move the stock quickly."
+      "Consumer Staples exposure keeps ITC on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "Debt is higher than conservative long-term names."
+      "Review the latest filings and management commentary before acting."
     ],
     "bucket": "Short Term",
-    "stability": "Medium",
+    "stability": "High",
     "evidence": [
-      "Momentum and volume both increased recently.",
-      "Profit growth is still healthy.",
-      "Auto updates can move the stock quickly."
-    ]
+      "Consumer Staples exposure keeps ITC on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
   },
   {
-    "name": "Hindustan Aeronautics",
-    "symbol": "HAL",
-    "sector": "Defence",
-    "price": "Rs4,112",
-    "previousClose": "Rs4,141",
-    "dayChange": -0.7,
-    "priceBucket": "Above Rs2000",
+    "name": "Sun Pharmaceutical",
+    "symbol": "SUNPHARMA",
+    "sector": "Pharmaceuticals",
+    "price": "Rs91.1",
+    "previousClose": "Rs92.9",
+    "dayChange": -2.0,
+    "priceBucket": "Under Rs100",
     "volumeBucket": "High Volume",
     "profitStatus": "Profitable",
-    "revenueTrend": "Up 13% YoY",
-    "netProfitTrend": "Up 16% YoY",
-    "debtToEquity": "0.00",
-    "operatingCashFlow": "Positive",
-    "roe": "27.8%",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.08",
+    "operatingCashFlow": "Mixed",
+    "roe": "16.6%",
     "promoterPledge": "0%",
-    "high52w": "Rs4,475",
-    "low52w": "Rs2,910",
-    "weekHigh": "Rs4,198",
-    "weekLow": "Rs4,055",
+    "high52w": "Rs107",
+    "low52w": "Rs59.7",
+    "weekHigh": "Rs93.1",
+    "weekLow": "Rs87.6",
     "highlights": [
-      "Debt-free profile supports stability.",
-      "Return ratios remain strong.",
-      "Order visibility can support long-term interest."
+      "Pharmaceuticals exposure keeps Sun Pharmaceutical on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "Execution timing on large defense orders can create volatility."
+      "Review the latest filings and management commentary before acting."
     ],
     "bucket": "Long Term",
     "stability": "High",
     "evidence": [
-      "Debt-free profile supports stability.",
-      "Return ratios remain strong.",
-      "Order visibility can support long-term interest."
-    ]
+      "Pharmaceuticals exposure keeps Sun Pharmaceutical on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
   },
   {
-    "name": "Indian Railway Finance Corporation",
-    "symbol": "IRFC",
-    "sector": "Financial Services",
-    "price": "Rs176",
-    "previousClose": "Rs174",
-    "dayChange": 0.9,
+    "name": "Titan Company",
+    "symbol": "TITAN",
+    "sector": "Retail",
+    "price": "Rs368",
+    "previousClose": "Rs370",
+    "dayChange": -0.3,
     "priceBucket": "Rs100-500",
-    "volumeBucket": "Volume Spike",
+    "volumeBucket": "High Volume",
     "profitStatus": "Profitable",
-    "revenueTrend": "Up 6% YoY",
-    "netProfitTrend": "Up 5% YoY",
-    "debtToEquity": "7.85",
-    "operatingCashFlow": "Mixed",
-    "roe": "13.5%",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.25",
+    "operatingCashFlow": "Positive",
+    "roe": "17.0%",
     "promoterPledge": "0%",
-    "high52w": "Rs229",
-    "low52w": "Rs116",
-    "weekHigh": "Rs179",
-    "weekLow": "Rs168",
+    "high52w": "Rs446",
+    "low52w": "Rs232",
+    "weekHigh": "Rs381",
+    "weekLow": "Rs351",
     "highlights": [
-      "Retail investors often track it because the share price is approachable.",
-      "The business remains profitable.",
-      "Government-linked profile keeps it on many watchlists."
+      "Retail exposure keeps Titan Company on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "High leverage means it should be reviewed carefully."
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Retail exposure keeps Titan Company on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Wipro",
+    "symbol": "WIPRO",
+    "sector": "Information Technology",
+    "price": "Rs132",
+    "previousClose": "Rs132",
+    "dayChange": 0.3,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "23.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs164",
+    "low52w": "Rs89.8",
+    "weekHigh": "Rs135",
+    "weekLow": "Rs127",
+    "highlights": [
+      "Information Technology exposure keeps Wipro on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps Wipro on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Nestle India",
+    "symbol": "NESTLEIND",
+    "sector": "Consumer Staples",
+    "price": "Rs1,504",
+    "previousClose": "Rs1,475",
+    "dayChange": 2.0,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.13",
+    "operatingCashFlow": "Positive",
+    "roe": "21.8%",
+    "promoterPledge": "Low",
+    "high52w": "Rs1,910",
+    "low52w": "Rs985",
+    "weekHigh": "Rs1,555",
+    "weekLow": "Rs1,435",
+    "highlights": [
+      "Consumer Staples exposure keeps Nestle India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Consumer Staples exposure keeps Nestle India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "HCL Technologies",
+    "symbol": "HCLTECH",
+    "sector": "Information Technology",
+    "price": "Rs5,577",
+    "previousClose": "Rs5,738",
+    "dayChange": -2.8,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.15",
+    "operatingCashFlow": "Positive",
+    "roe": "26.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs7,250",
+    "low52w": "Rs3,514",
+    "weekHigh": "Rs5,633",
+    "weekLow": "Rs5,410",
+    "highlights": [
+      "Information Technology exposure keeps HCL Technologies on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps HCL Technologies on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Tech Mahindra",
+    "symbol": "TECHM",
+    "sector": "Information Technology",
+    "price": "Rs69.5",
+    "previousClose": "Rs70.3",
+    "dayChange": -1.1,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.27",
+    "operatingCashFlow": "Positive",
+    "roe": "17.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs77.9",
+    "low52w": "Rs42.1",
+    "weekHigh": "Rs71",
+    "weekLow": "Rs66.9",
+    "highlights": [
+      "Information Technology exposure keeps Tech Mahindra on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps Tech Mahindra on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Cipla",
+    "symbol": "CIPLA",
+    "sector": "Pharmaceuticals",
+    "price": "Rs94.2",
+    "previousClose": "Rs94.6",
+    "dayChange": -0.5,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.08",
+    "operatingCashFlow": "Positive",
+    "roe": "15.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs108",
+    "low52w": "Rs61.7",
+    "weekHigh": "Rs95.1",
+    "weekLow": "Rs91.3",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Cipla on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
     ],
     "bucket": "Short Term",
-    "stability": "Needs Review",
+    "stability": "High",
     "evidence": [
-      "Retail investors often track it because the share price is approachable.",
-      "The business remains profitable.",
-      "Government-linked profile keeps it on many watchlists."
-    ]
+      "Pharmaceuticals exposure keeps Cipla on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Divi's Laboratories",
+    "symbol": "DIVISLAB",
+    "sector": "Pharmaceuticals",
+    "price": "Rs277",
+    "previousClose": "Rs274",
+    "dayChange": 1.2,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.20",
+    "operatingCashFlow": "Positive",
+    "roe": "16.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs327",
+    "low52w": "Rs175",
+    "weekHigh": "Rs283",
+    "weekLow": "Rs267",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Divi's Laboratories on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Divi's Laboratories on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Apollo Hospitals",
+    "symbol": "APOLLOHOSP",
+    "sector": "Healthcare",
+    "price": "Rs357",
+    "previousClose": "Rs351",
+    "dayChange": 1.8,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.06",
+    "operatingCashFlow": "Positive",
+    "roe": "16.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs432",
+    "low52w": "Rs243",
+    "weekHigh": "Rs361",
+    "weekLow": "Rs346",
+    "highlights": [
+      "Healthcare exposure keeps Apollo Hospitals on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Healthcare exposure keeps Apollo Hospitals on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
   },
   {
     "name": "Tata Consumer Products",
     "symbol": "TATACONSUM",
     "sector": "Consumer Staples",
-    "price": "Rs1,178",
-    "previousClose": "Rs1,183",
-    "dayChange": -0.4,
-    "priceBucket": "Rs500-2000",
+    "price": "Rs4,190",
+    "previousClose": "Rs4,245",
+    "dayChange": -1.3,
+    "priceBucket": "Above Rs2000",
     "volumeBucket": "High Volume",
     "profitStatus": "Profitable",
     "revenueTrend": "Up 10% YoY",
-    "netProfitTrend": "Up 11% YoY",
-    "debtToEquity": "0.14",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.25",
     "operatingCashFlow": "Positive",
-    "roe": "16.8%",
+    "roe": "21.8%",
     "promoterPledge": "0%",
-    "high52w": "Rs1,255",
-    "low52w": "Rs860",
-    "weekHigh": "Rs1,196",
-    "weekLow": "Rs1,166",
+    "high52w": "Rs5,321",
+    "low52w": "Rs2,640",
+    "weekHigh": "Rs4,332",
+    "weekLow": "Rs3,997",
     "highlights": [
-      "Consumer demand tends to be steadier than cyclical sectors.",
-      "Low debt supports quality.",
-      "Well-known brands can feel easier for new users to understand."
+      "Consumer Staples exposure keeps Tata Consumer Products on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "Input costs and competitive pricing can pressure margins."
+      "Review the latest filings and management commentary before acting."
     ],
     "bucket": "Long Term",
     "stability": "High",
     "evidence": [
-      "Consumer demand tends to be steadier than cyclical sectors.",
-      "Low debt supports quality.",
-      "Well-known brands can feel easier for new users to understand."
-    ]
+      "Consumer Staples exposure keeps Tata Consumer Products on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Hindustan Aeronautics",
+    "symbol": "HAL",
+    "sector": "Defence",
+    "price": "Rs88.8",
+    "previousClose": "Rs88.2",
+    "dayChange": 0.7,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.10",
+    "operatingCashFlow": "Positive",
+    "roe": "20.0%",
+    "promoterPledge": "Low",
+    "high52w": "Rs107",
+    "low52w": "Rs55.9",
+    "weekHigh": "Rs90.7",
+    "weekLow": "Rs85.4",
+    "highlights": [
+      "Defence exposure keeps Hindustan Aeronautics on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Defence exposure keeps Hindustan Aeronautics on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Bharat Electronics",
+    "symbol": "BEL",
+    "sector": "Defence",
+    "price": "Rs176",
+    "previousClose": "Rs172",
+    "dayChange": 2.4,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.22",
+    "operatingCashFlow": "Positive",
+    "roe": "21.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs218",
+    "low52w": "Rs106",
+    "weekHigh": "Rs182",
+    "weekLow": "Rs168",
+    "highlights": [
+      "Defence exposure keeps Bharat Electronics on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Defence exposure keeps Bharat Electronics on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Dabur India",
+    "symbol": "DABUR",
+    "sector": "Consumer Staples",
+    "price": "Rs197",
+    "previousClose": "Rs192",
+    "dayChange": 2.7,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "0.25",
+    "operatingCashFlow": "Positive",
+    "roe": "16.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs227",
+    "low52w": "Rs124",
+    "weekHigh": "Rs199",
+    "weekLow": "Rs191",
+    "highlights": [
+      "Consumer Staples exposure keeps Dabur India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Consumer Staples exposure keeps Dabur India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Ambuja Cements",
+    "symbol": "AMBUJACEM",
+    "sector": "Cement",
+    "price": "Rs49.2",
+    "previousClose": "Rs47.9",
+    "dayChange": 2.8,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "0.26",
+    "operatingCashFlow": "Mixed",
+    "roe": "15.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs59.5",
+    "low52w": "Rs33.5",
+    "weekHigh": "Rs50.9",
+    "weekLow": "Rs46.9",
+    "highlights": [
+      "Cement exposure keeps Ambuja Cements on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Cement exposure keeps Ambuja Cements on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "ICICI Lombard",
+    "symbol": "ICICIGI",
+    "sector": "Insurance",
+    "price": "Rs38.8",
+    "previousClose": "Rs39.8",
+    "dayChange": -2.5,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "0.08",
+    "operatingCashFlow": "Mixed",
+    "roe": "16.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs49.2",
+    "low52w": "Rs25.4",
+    "weekHigh": "Rs39.1",
+    "weekLow": "Rs37.6",
+    "highlights": [
+      "Insurance exposure keeps ICICI Lombard on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "High",
+    "evidence": [
+      "Insurance exposure keeps ICICI Lombard on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "HDFC Life",
+    "symbol": "HDFCLIFE",
+    "sector": "Insurance",
+    "price": "Rs344",
+    "previousClose": "Rs347",
+    "dayChange": -0.8,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.20",
+    "operatingCashFlow": "Positive",
+    "roe": "18.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs447",
+    "low52w": "Rs217",
+    "weekHigh": "Rs351",
+    "weekLow": "Rs331",
+    "highlights": [
+      "Insurance exposure keeps HDFC Life on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Insurance exposure keeps HDFC Life on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "LTIMindtree",
+    "symbol": "LTIM",
+    "sector": "Information Technology",
+    "price": "Rs57.2",
+    "previousClose": "Rs58.5",
+    "dayChange": -2.2,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "20.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs67.5",
+    "low52w": "Rs38.9",
+    "weekHigh": "Rs58.5",
+    "weekLow": "Rs55",
+    "highlights": [
+      "Information Technology exposure keeps LTIMindtree on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps LTIMindtree on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Varun Beverages",
+    "symbol": "VBL",
+    "sector": "Consumer Staples",
+    "price": "Rs131",
+    "previousClose": "Rs132",
+    "dayChange": -0.5,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.13",
+    "operatingCashFlow": "Positive",
+    "roe": "19.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs159",
+    "low52w": "Rs85.8",
+    "weekHigh": "Rs135",
+    "weekLow": "Rs125",
+    "highlights": [
+      "Consumer Staples exposure keeps Varun Beverages on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Consumer Staples exposure keeps Varun Beverages on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "Oracle Financial Services",
+    "symbol": "OFSS",
+    "sector": "Information Technology",
+    "price": "Rs1,430",
+    "previousClose": "Rs1,405",
+    "dayChange": 1.8,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "24.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,816",
+    "low52w": "Rs972",
+    "weekHigh": "Rs1,479",
+    "weekLow": "Rs1,364",
+    "highlights": [
+      "Information Technology exposure keeps Oracle Financial Services on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Information Technology exposure keeps Oracle Financial Services on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "SRF",
+    "symbol": "SRF",
+    "sector": "Chemicals",
+    "price": "Rs5,070",
+    "previousClose": "Rs5,227",
+    "dayChange": -3.0,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "0.23",
+    "operatingCashFlow": "Positive",
+    "roe": "22.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs6,591",
+    "low52w": "Rs3,321",
+    "weekHigh": "Rs5,121",
+    "weekLow": "Rs4,918",
+    "highlights": [
+      "Chemicals exposure keeps SRF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Long Term",
+    "stability": "High",
+    "evidence": [
+      "Chemicals exposure keeps SRF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 99
+  },
+  {
+    "name": "UltraTech Cement",
+    "symbol": "ULTRACEMCO",
+    "sector": "Cement",
+    "price": "Rs1,232",
+    "previousClose": "Rs1,215",
+    "dayChange": 1.4,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.62",
+    "operatingCashFlow": "Positive",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,528",
+    "low52w": "Rs745",
+    "weekHigh": "Rs1,244",
+    "weekLow": "Rs1,195",
+    "highlights": [
+      "Cement exposure keeps UltraTech Cement on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Cement exposure keeps UltraTech Cement on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "ONGC",
+    "symbol": "ONGC",
+    "sector": "Energy",
+    "price": "Rs558",
+    "previousClose": "Rs545",
+    "dayChange": 2.3,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "0.46",
+    "operatingCashFlow": "Positive",
+    "roe": "14.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs658",
+    "low52w": "Rs379",
+    "weekHigh": "Rs564",
+    "weekLow": "Rs541",
+    "highlights": [
+      "Energy exposure keeps ONGC on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Energy exposure keeps ONGC on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Coal India",
+    "symbol": "COALINDIA",
+    "sector": "Mining",
+    "price": "Rs1,701",
+    "previousClose": "Rs1,745",
+    "dayChange": -2.5,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.23",
+    "operatingCashFlow": "Positive",
+    "roe": "14.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs2,058",
+    "low52w": "Rs1,114",
+    "weekHigh": "Rs1,738",
+    "weekLow": "Rs1,636",
+    "highlights": [
+      "Mining exposure keeps Coal India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Mining exposure keeps Coal India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Grasim Industries",
+    "symbol": "GRASIM",
+    "sector": "Industrials",
+    "price": "Rs2,870",
+    "previousClose": "Rs2,935",
+    "dayChange": -2.2,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.21",
+    "operatingCashFlow": "Positive",
+    "roe": "12.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs3,214",
+    "low52w": "Rs1,952",
+    "weekHigh": "Rs2,968",
+    "weekLow": "Rs2,738",
+    "highlights": [
+      "Industrials exposure keeps Grasim Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Grasim Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Rail Vikas Nigam",
+    "symbol": "RVNL",
+    "sector": "Infrastructure",
+    "price": "Rs1,436",
+    "previousClose": "Rs1,471",
+    "dayChange": -2.4,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "1.04",
+    "operatingCashFlow": "Positive",
+    "roe": "16.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,824",
+    "low52w": "Rs833",
+    "weekHigh": "Rs1,450",
+    "weekLow": "Rs1,393",
+    "highlights": [
+      "Infrastructure exposure keeps Rail Vikas Nigam on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sentiment can swing quickly, so this name needs closer monitoring."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Infrastructure exposure keeps Rail Vikas Nigam on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Bosch",
+    "symbol": "BOSCHLTD",
+    "sector": "Industrials",
+    "price": "Rs824",
+    "previousClose": "Rs837",
+    "dayChange": -1.5,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "0.33",
+    "operatingCashFlow": "Positive",
+    "roe": "17.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs997",
+    "low52w": "Rs540",
+    "weekHigh": "Rs832",
+    "weekLow": "Rs799",
+    "highlights": [
+      "Industrials exposure keeps Bosch on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Bosch on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Aurobindo Pharma",
+    "symbol": "AUROPHARMA",
+    "sector": "Pharmaceuticals",
+    "price": "Rs1,056",
+    "previousClose": "Rs1,069",
+    "dayChange": -1.2,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "13.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,183",
+    "low52w": "Rs718",
+    "weekHigh": "Rs1,079",
+    "weekLow": "Rs1,016",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Aurobindo Pharma on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Aurobindo Pharma on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Vedanta",
+    "symbol": "VEDL",
+    "sector": "Metals",
+    "price": "Rs1,109",
+    "previousClose": "Rs1,115",
+    "dayChange": -0.6,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "0.97",
+    "operatingCashFlow": "Positive",
+    "roe": "12.2%",
+    "promoterPledge": "Low",
+    "high52w": "Rs1,275",
+    "low52w": "Rs671",
+    "weekHigh": "Rs1,120",
+    "weekLow": "Rs1,076",
+    "highlights": [
+      "Metals exposure keeps Vedanta on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Metals exposure keeps Vedanta on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "ABB India",
+    "symbol": "ABB",
+    "sector": "Industrials",
+    "price": "Rs60.4",
+    "previousClose": "Rs58.6",
+    "dayChange": 3.1,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "0.69",
+    "operatingCashFlow": "Positive",
+    "roe": "12.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs67.7",
+    "low52w": "Rs35",
+    "weekHigh": "Rs61",
+    "weekLow": "Rs58.6",
+    "highlights": [
+      "Industrials exposure keeps ABB India on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps ABB India on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "BHEL",
+    "symbol": "BHEL",
+    "sector": "Industrials",
+    "price": "Rs230",
+    "previousClose": "Rs234",
+    "dayChange": -1.7,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.21",
+    "operatingCashFlow": "Positive",
+    "roe": "14.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs264",
+    "low52w": "Rs156",
+    "weekHigh": "Rs235",
+    "weekLow": "Rs221",
+    "highlights": [
+      "Industrials exposure keeps BHEL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps BHEL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "LIC",
+    "symbol": "LICI",
+    "sector": "Insurance",
+    "price": "Rs1,429",
+    "previousClose": "Rs1,429",
+    "dayChange": 0.0,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.08",
+    "operatingCashFlow": "Positive",
+    "roe": "12.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,686",
+    "low52w": "Rs936",
+    "weekHigh": "Rs1,477",
+    "weekLow": "Rs1,363",
+    "highlights": [
+      "Insurance exposure keeps LIC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Insurance exposure keeps LIC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Adani Green Energy",
+    "symbol": "ADANIGREEN",
+    "sector": "Renewable Energy",
+    "price": "Rs434",
+    "previousClose": "Rs433",
+    "dayChange": 0.3,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.31",
+    "operatingCashFlow": "Positive",
+    "roe": "19.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs564",
+    "low52w": "Rs295",
+    "weekHigh": "Rs438",
+    "weekLow": "Rs421",
+    "highlights": [
+      "Renewable Energy exposure keeps Adani Green Energy on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Renewable Energy exposure keeps Adani Green Energy on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "CG Power",
+    "symbol": "CGPOWER",
+    "sector": "Industrials",
+    "price": "Rs1,028",
+    "previousClose": "Rs1,016",
+    "dayChange": 1.2,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "0.45",
+    "operatingCashFlow": "Positive",
+    "roe": "18.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,275",
+    "low52w": "Rs648",
+    "weekHigh": "Rs1,038",
+    "weekLow": "Rs997",
+    "highlights": [
+      "Industrials exposure keeps CG Power on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps CG Power on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "IRCTC",
+    "symbol": "IRCTC",
+    "sector": "Travel",
+    "price": "Rs1,048",
+    "previousClose": "Rs1,032",
+    "dayChange": 1.5,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.03",
+    "operatingCashFlow": "Positive",
+    "roe": "13.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,205",
+    "low52w": "Rs686",
+    "weekHigh": "Rs1,071",
+    "weekLow": "Rs1,008",
+    "highlights": [
+      "Travel exposure keeps IRCTC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Travel exposure keeps IRCTC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "PI Industries",
+    "symbol": "PIIND",
+    "sector": "Chemicals",
+    "price": "Rs74.4",
+    "previousClose": "Rs75.6",
+    "dayChange": -1.6,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.47",
+    "operatingCashFlow": "Positive",
+    "roe": "18.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs90",
+    "low52w": "Rs45",
+    "weekHigh": "Rs75.1",
+    "weekLow": "Rs72.2",
+    "highlights": [
+      "Chemicals exposure keeps PI Industries on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Chemicals exposure keeps PI Industries on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 98
+  },
+  {
+    "name": "Bajaj Auto",
+    "symbol": "BAJAJ-AUTO",
+    "sector": "Automobile",
+    "price": "Rs296",
+    "previousClose": "Rs292",
+    "dayChange": 1.5,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.48",
+    "operatingCashFlow": "Positive",
+    "roe": "21.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs385",
+    "low52w": "Rs194",
+    "weekHigh": "Rs306",
+    "weekLow": "Rs282",
+    "highlights": [
+      "Automobile exposure keeps Bajaj Auto on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Bajaj Auto on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 96
+  },
+  {
+    "name": "Indian Oil Corporation",
+    "symbol": "IOC",
+    "sector": "Energy",
+    "price": "Rs34.2",
+    "previousClose": "Rs33.4",
+    "dayChange": 2.5,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.58",
+    "operatingCashFlow": "Positive",
+    "roe": "20.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs44.5",
+    "low52w": "Rs22.4",
+    "weekHigh": "Rs35",
+    "weekLow": "Rs32.9",
+    "highlights": [
+      "Energy exposure keeps Indian Oil Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Energy exposure keeps Indian Oil Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 96
+  },
+  {
+    "name": "Jubilant FoodWorks",
+    "symbol": "JUBLFOOD",
+    "sector": "Consumer",
+    "price": "Rs1,436",
+    "previousClose": "Rs1,441",
+    "dayChange": -0.3,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.35",
+    "operatingCashFlow": "Positive",
+    "roe": "20.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,824",
+    "low52w": "Rs905",
+    "weekHigh": "Rs1,468",
+    "weekLow": "Rs1,382",
+    "highlights": [
+      "Consumer exposure keeps Jubilant FoodWorks on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Consumer exposure keeps Jubilant FoodWorks on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 96
+  },
+  {
+    "name": "Siemens India",
+    "symbol": "SIEMENS",
+    "sector": "Industrials",
+    "price": "Rs5,070",
+    "previousClose": "Rs5,000",
+    "dayChange": 1.4,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.57",
+    "operatingCashFlow": "Positive",
+    "roe": "21.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs6,591",
+    "low52w": "Rs3,067",
+    "weekHigh": "Rs5,242",
+    "weekLow": "Rs4,837",
+    "highlights": [
+      "Industrials exposure keeps Siemens India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Siemens India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 96
+  },
+  {
+    "name": "Reliance Industries",
+    "symbol": "RELIANCE",
+    "sector": "Energy",
+    "price": "Rs118",
+    "previousClose": "Rs120",
+    "dayChange": -1.5,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.58",
+    "operatingCashFlow": "Positive",
+    "roe": "13.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs136",
+    "low52w": "Rs77.2",
+    "weekHigh": "Rs120",
+    "weekLow": "Rs113",
+    "highlights": [
+      "Energy exposure keeps Reliance Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Energy exposure keeps Reliance Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Hindustan Unilever",
+    "symbol": "HINDUNILVR",
+    "sector": "Consumer Staples",
+    "price": "Rs219",
+    "previousClose": "Rs221",
+    "dayChange": -0.9,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.49",
+    "operatingCashFlow": "Positive",
+    "roe": "17.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs258",
+    "low52w": "Rs127",
+    "weekHigh": "Rs221",
+    "weekLow": "Rs212",
+    "highlights": [
+      "Consumer Staples exposure keeps Hindustan Unilever on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Consumer Staples exposure keeps Hindustan Unilever on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Asian Paints",
+    "symbol": "ASIANPAINT",
+    "sector": "Consumer",
+    "price": "Rs1,151",
+    "previousClose": "Rs1,138",
+    "dayChange": 1.1,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.59",
+    "operatingCashFlow": "Positive",
+    "roe": "13.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,289",
+    "low52w": "Rs667",
+    "weekHigh": "Rs1,190",
+    "weekLow": "Rs1,098",
+    "highlights": [
+      "Consumer exposure keeps Asian Paints on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Consumer exposure keeps Asian Paints on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Maruti Suzuki",
+    "symbol": "MARUTI",
+    "sector": "Automobile",
+    "price": "Rs3,750",
+    "previousClose": "Rs3,648",
+    "dayChange": 2.8,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "0.36",
+    "operatingCashFlow": "Positive",
+    "roe": "14.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,312",
+    "low52w": "Rs2,550",
+    "weekHigh": "Rs3,788",
+    "weekLow": "Rs3,638",
+    "highlights": [
+      "Automobile exposure keeps Maruti Suzuki on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Maruti Suzuki on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Tata Motors",
+    "symbol": "TATAMOTORS",
+    "sector": "Automobile",
+    "price": "Rs4,190",
+    "previousClose": "Rs4,064",
+    "dayChange": 3.1,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.84",
+    "operatingCashFlow": "Positive",
+    "roe": "19.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs5,321",
+    "low52w": "Rs2,430",
+    "weekHigh": "Rs4,282",
+    "weekLow": "Rs4,031",
+    "highlights": [
+      "Automobile exposure keeps Tata Motors on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Tata Motors on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "NTPC",
+    "symbol": "NTPC",
+    "sector": "Utilities",
+    "price": "Rs32.6",
+    "previousClose": "Rs33.2",
+    "dayChange": -1.7,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "1.01",
+    "operatingCashFlow": "Positive",
+    "roe": "17.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs42.4",
+    "low52w": "Rs22.2",
+    "weekHigh": "Rs33.8",
+    "weekLow": "Rs31.1",
+    "highlights": [
+      "Utilities exposure keeps NTPC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Utilities exposure keeps NTPC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "JSW Steel",
+    "symbol": "JSWSTEEL",
+    "sector": "Metals",
+    "price": "Rs4,167",
+    "previousClose": "Rs4,300",
+    "dayChange": -3.1,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.97",
+    "operatingCashFlow": "Positive",
+    "roe": "13.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,917",
+    "low52w": "Rs2,521",
+    "weekHigh": "Rs4,309",
+    "weekLow": "Rs3,975",
+    "highlights": [
+      "Metals exposure keeps JSW Steel on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Metals exposure keeps JSW Steel on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "SBI Life Insurance",
+    "symbol": "SBILIFE",
+    "sector": "Insurance",
+    "price": "Rs718",
+    "previousClose": "Rs700",
+    "dayChange": 2.6,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.44",
+    "operatingCashFlow": "Positive",
+    "roe": "18.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs934",
+    "low52w": "Rs417",
+    "weekHigh": "Rs734",
+    "weekLow": "Rs691",
+    "highlights": [
+      "Insurance exposure keeps SBI Life Insurance on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Insurance exposure keeps SBI Life Insurance on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Britannia Industries",
+    "symbol": "BRITANNIA",
+    "sector": "Consumer Staples",
+    "price": "Rs892",
+    "previousClose": "Rs867",
+    "dayChange": 2.9,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.37",
+    "operatingCashFlow": "Positive",
+    "roe": "19.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,079",
+    "low52w": "Rs540",
+    "weekHigh": "Rs922",
+    "weekLow": "Rs851",
+    "highlights": [
+      "Consumer Staples exposure keeps Britannia Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Consumer Staples exposure keeps Britannia Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Hero MotoCorp",
+    "symbol": "HEROMOTOCO",
+    "sector": "Automobile",
+    "price": "Rs3,310",
+    "previousClose": "Rs3,374",
+    "dayChange": -1.9,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "0.84",
+    "operatingCashFlow": "Positive",
+    "roe": "18.4%",
+    "promoterPledge": "Low",
+    "high52w": "Rs4,104",
+    "low52w": "Rs1,920",
+    "weekHigh": "Rs3,343",
+    "weekLow": "Rs3,211",
+    "highlights": [
+      "Automobile exposure keeps Hero MotoCorp on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Hero MotoCorp on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "BPCL",
+    "symbol": "BPCL",
+    "sector": "Energy",
+    "price": "Rs3,375",
+    "previousClose": "Rs3,430",
+    "dayChange": -1.6,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.82",
+    "operatingCashFlow": "Positive",
+    "roe": "13.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs3,881",
+    "low52w": "Rs2,042",
+    "weekHigh": "Rs3,449",
+    "weekLow": "Rs3,247",
+    "highlights": [
+      "Energy exposure keeps BPCL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Energy exposure keeps BPCL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Adani Enterprises",
+    "symbol": "ADANIENT",
+    "sector": "Industrials",
+    "price": "Rs1,164",
+    "previousClose": "Rs1,200",
+    "dayChange": -3.0,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.33",
+    "operatingCashFlow": "Positive",
+    "roe": "18.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,443",
+    "low52w": "Rs762",
+    "weekHigh": "Rs1,190",
+    "weekLow": "Rs1,120",
+    "highlights": [
+      "Industrials exposure keeps Adani Enterprises on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sentiment can swing quickly, so this name needs closer monitoring."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Adani Enterprises on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Trent",
+    "symbol": "TRENT",
+    "sector": "Retail",
+    "price": "Rs461",
+    "previousClose": "Rs451",
+    "dayChange": 2.1,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "0.49",
+    "operatingCashFlow": "Positive",
+    "roe": "12.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs516",
+    "low52w": "Rs267",
+    "weekHigh": "Rs471",
+    "weekLow": "Rs443",
+    "highlights": [
+      "Retail exposure keeps Trent on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Retail exposure keeps Trent on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Pidilite Industries",
+    "symbol": "PIDILITIND",
+    "sector": "Chemicals",
+    "price": "Rs2,430",
+    "previousClose": "Rs2,440",
+    "dayChange": -0.4,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.59",
+    "operatingCashFlow": "Positive",
+    "roe": "18.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs2,940",
+    "low52w": "Rs1,409",
+    "weekHigh": "Rs2,513",
+    "weekLow": "Rs2,318",
+    "highlights": [
+      "Chemicals exposure keeps Pidilite Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Chemicals exposure keeps Pidilite Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Mankind Pharma",
+    "symbol": "MANKIND",
+    "sector": "Pharmaceuticals",
+    "price": "Rs3,157",
+    "previousClose": "Rs3,160",
+    "dayChange": -0.1,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.32",
+    "operatingCashFlow": "Positive",
+    "roe": "13.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs3,536",
+    "low52w": "Rs1,910",
+    "weekHigh": "Rs3,189",
+    "weekLow": "Rs3,062",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Mankind Pharma on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Mankind Pharma on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "TVS Motor Company",
+    "symbol": "TVSMOTOR",
+    "sector": "Automobile",
+    "price": "Rs285",
+    "previousClose": "Rs294",
+    "dayChange": -3.2,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.36",
+    "operatingCashFlow": "Positive",
+    "roe": "15.6%",
+    "promoterPledge": "Low",
+    "high52w": "Rs336",
+    "low52w": "Rs194",
+    "weekHigh": "Rs295",
+    "weekLow": "Rs272",
+    "highlights": [
+      "Automobile exposure keeps TVS Motor Company on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps TVS Motor Company on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Cummins India",
+    "symbol": "CUMMINSIND",
+    "sector": "Industrials",
+    "price": "Rs3,310",
+    "previousClose": "Rs3,303",
+    "dayChange": 0.2,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.45",
+    "operatingCashFlow": "Positive",
+    "roe": "18.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,104",
+    "low52w": "Rs2,085",
+    "weekHigh": "Rs3,383",
+    "weekLow": "Rs3,184",
+    "highlights": [
+      "Industrials exposure keeps Cummins India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Cummins India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "DLF",
+    "symbol": "DLF",
+    "sector": "Real Estate",
+    "price": "Rs58.5",
+    "previousClose": "Rs57.4",
+    "dayChange": 1.9,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "1.07",
+    "operatingCashFlow": "Positive",
+    "roe": "14.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs74.3",
+    "low52w": "Rs35.4",
+    "weekHigh": "Rs60.5",
+    "weekLow": "Rs55.8",
+    "highlights": [
+      "Real Estate exposure keeps DLF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Real Estate exposure keeps DLF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "NMDC",
+    "symbol": "NMDC",
+    "sector": "Mining",
+    "price": "Rs3,241",
+    "previousClose": "Rs3,206",
+    "dayChange": 1.1,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.59",
+    "operatingCashFlow": "Positive",
+    "roe": "12.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs3,824",
+    "low52w": "Rs1,880",
+    "weekHigh": "Rs3,312",
+    "weekLow": "Rs3,118",
+    "highlights": [
+      "Mining exposure keeps NMDC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Mining exposure keeps NMDC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "ACC",
+    "symbol": "ACC",
+    "sector": "Cement",
+    "price": "Rs186",
+    "previousClose": "Rs190",
+    "dayChange": -2.0,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.38",
+    "operatingCashFlow": "Positive",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs231",
+    "low52w": "Rs122",
+    "weekHigh": "Rs188",
+    "weekLow": "Rs180",
+    "highlights": [
+      "Cement exposure keeps ACC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Cement exposure keeps ACC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Avenue Supermarts",
+    "symbol": "DMART",
+    "sector": "Retail",
+    "price": "Rs329",
+    "previousClose": "Rs333",
+    "dayChange": -1.4,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.49",
+    "operatingCashFlow": "Positive",
+    "roe": "19.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs418",
+    "low52w": "Rs191",
+    "weekHigh": "Rs340",
+    "weekLow": "Rs314",
+    "highlights": [
+      "Retail exposure keeps Avenue Supermarts on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Retail exposure keeps Avenue Supermarts on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "UPL",
+    "symbol": "UPL",
+    "sector": "Chemicals",
+    "price": "Rs82.8",
+    "previousClose": "Rs85.2",
+    "dayChange": -2.8,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "0.35",
+    "operatingCashFlow": "Positive",
+    "roe": "15.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs95.2",
+    "low52w": "Rs52.2",
+    "weekHigh": "Rs85.6",
+    "weekLow": "Rs79",
+    "highlights": [
+      "Chemicals exposure keeps UPL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Chemicals exposure keeps UPL on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Torrent Pharmaceuticals",
+    "symbol": "TORNTPHARM",
+    "sector": "Pharmaceuticals",
+    "price": "Rs350",
+    "previousClose": "Rs354",
+    "dayChange": -1.1,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "0.32",
+    "operatingCashFlow": "Positive",
+    "roe": "16.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs413",
+    "low52w": "Rs212",
+    "weekHigh": "Rs353",
+    "weekLow": "Rs339",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Torrent Pharmaceuticals on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Torrent Pharmaceuticals on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Lupin",
+    "symbol": "LUPIN",
+    "sector": "Pharmaceuticals",
+    "price": "Rs832",
+    "previousClose": "Rs827",
+    "dayChange": 0.6,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.44",
+    "operatingCashFlow": "Positive",
+    "roe": "18.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,006",
+    "low52w": "Rs482",
+    "weekHigh": "Rs850",
+    "weekLow": "Rs800",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Lupin on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Lupin on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "MRF",
+    "symbol": "MRF",
+    "sector": "Automobile",
+    "price": "Rs3,310",
+    "previousClose": "Rs3,236",
+    "dayChange": 2.3,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "0.36",
+    "operatingCashFlow": "Positive",
+    "roe": "18.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,104",
+    "low52w": "Rs2,251",
+    "weekHigh": "Rs3,423",
+    "weekLow": "Rs3,158",
+    "highlights": [
+      "Automobile exposure keeps MRF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps MRF on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Samvardhana Motherson",
+    "symbol": "MOTHERSON",
+    "sector": "Automobile",
+    "price": "Rs4,190",
+    "previousClose": "Rs4,072",
+    "dayChange": 2.9,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.72",
+    "operatingCashFlow": "Positive",
+    "roe": "19.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs5,321",
+    "low52w": "Rs2,535",
+    "weekHigh": "Rs4,282",
+    "weekLow": "Rs4,031",
+    "highlights": [
+      "Automobile exposure keeps Samvardhana Motherson on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Samvardhana Motherson on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 91
+  },
+  {
+    "name": "Mahindra & Mahindra",
+    "symbol": "M&M",
+    "sector": "Automobile",
+    "price": "Rs52",
+    "previousClose": "Rs52.7",
+    "dayChange": -1.4,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "0.84",
+    "operatingCashFlow": "Mixed",
+    "roe": "17.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs62.9",
+    "low52w": "Rs30.2",
+    "weekHigh": "Rs52.5",
+    "weekLow": "Rs50.4",
+    "highlights": [
+      "Automobile exposure keeps Mahindra & Mahindra on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Mahindra & Mahindra on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 88
+  },
+  {
+    "name": "Eternal",
+    "symbol": "ETERNAL",
+    "sector": "Internet Consumer",
+    "price": "Rs1,105",
+    "previousClose": "Rs1,136",
+    "dayChange": -2.7,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "7.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,271",
+    "low52w": "Rs751",
+    "weekHigh": "Rs1,143",
+    "weekLow": "Rs1,054",
+    "highlights": [
+      "Internet Consumer exposure keeps Eternal on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Internet Consumer exposure keeps Eternal on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 87
+  },
+  {
+    "name": "Power Grid Corporation",
+    "symbol": "POWERGRID",
+    "sector": "Utilities",
+    "price": "Rs281",
+    "previousClose": "Rs281",
+    "dayChange": 0.0,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "1.13",
+    "operatingCashFlow": "Positive",
+    "roe": "8.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs314",
+    "low52w": "Rs184",
+    "weekHigh": "Rs284",
+    "weekLow": "Rs272",
+    "highlights": [
+      "Utilities exposure keeps Power Grid Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Utilities exposure keeps Power Grid Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 86
+  },
+  {
+    "name": "Dr Reddy's Laboratories",
+    "symbol": "DRREDDY",
+    "sector": "Pharmaceuticals",
+    "price": "Rs229",
+    "previousClose": "Rs227",
+    "dayChange": 0.9,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "0.32",
+    "operatingCashFlow": "Positive",
+    "roe": "20.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs291",
+    "low52w": "Rs138",
+    "weekHigh": "Rs231",
+    "weekLow": "Rs222",
+    "highlights": [
+      "Pharmaceuticals exposure keeps Dr Reddy's Laboratories on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Pharmaceuticals exposure keeps Dr Reddy's Laboratories on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 86
+  },
+  {
+    "name": "Adani Energy Solutions",
+    "symbol": "ADANIENSOL",
+    "sector": "Utilities",
+    "price": "Rs2,296",
+    "previousClose": "Rs2,251",
+    "dayChange": 2.0,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "1.13",
+    "operatingCashFlow": "Positive",
+    "roe": "8.8%",
+    "promoterPledge": "Low",
+    "high52w": "Rs2,572",
+    "low52w": "Rs1,504",
+    "weekHigh": "Rs2,347",
+    "weekLow": "Rs2,209",
+    "highlights": [
+      "Utilities exposure keeps Adani Energy Solutions on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Utilities exposure keeps Adani Energy Solutions on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 86
+  },
+  {
+    "name": "Max Healthcare",
+    "symbol": "MAXHEALTH",
+    "sector": "Healthcare",
+    "price": "Rs937",
+    "previousClose": "Rs928",
+    "dayChange": 0.9,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "0.42",
+    "operatingCashFlow": "Positive",
+    "roe": "11.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,049",
+    "low52w": "Rs567",
+    "weekHigh": "Rs968",
+    "weekLow": "Rs894",
+    "highlights": [
+      "Healthcare exposure keeps Max Healthcare on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Healthcare exposure keeps Max Healthcare on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 86
+  },
+  {
+    "name": "Tata Power",
+    "symbol": "TATAPOWER",
+    "sector": "Utilities",
+    "price": "Rs52.8",
+    "previousClose": "Rs52.6",
+    "dayChange": 0.4,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "1.37",
+    "operatingCashFlow": "Mixed",
+    "roe": "17.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs68.6",
+    "low52w": "Rs31.9",
+    "weekHigh": "Rs53.3",
+    "weekLow": "Rs51.2",
+    "highlights": [
+      "Utilities exposure keeps Tata Power on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Short Term",
+    "stability": "Medium",
+    "evidence": [
+      "Utilities exposure keeps Tata Power on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 85
+  },
+  {
+    "name": "Tata Steel",
+    "symbol": "TATASTEEL",
+    "sector": "Metals",
+    "price": "Rs1,231",
+    "previousClose": "Rs1,211",
+    "dayChange": 1.7,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.85",
+    "operatingCashFlow": "Positive",
+    "roe": "12.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,416",
+    "low52w": "Rs776",
+    "weekHigh": "Rs1,258",
+    "weekLow": "Rs1,184",
+    "highlights": [
+      "Metals exposure keeps Tata Steel on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Metals exposure keeps Tata Steel on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
+  },
+  {
+    "name": "Hindalco Industries",
+    "symbol": "HINDALCO",
+    "sector": "Metals",
+    "price": "Rs67",
+    "previousClose": "Rs67.5",
+    "dayChange": -0.8,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "0.85",
+    "operatingCashFlow": "Mixed",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs83",
+    "low52w": "Rs42.2",
+    "weekHigh": "Rs69.2",
+    "weekLow": "Rs63.9",
+    "highlights": [
+      "Metals exposure keeps Hindalco Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Metals exposure keeps Hindalco Industries on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
+  },
+  {
+    "name": "Eicher Motors",
+    "symbol": "EICHERMOT",
+    "sector": "Automobile",
+    "price": "Rs43.6",
+    "previousClose": "Rs43.7",
+    "dayChange": -0.2,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.36",
+    "operatingCashFlow": "Mixed",
+    "roe": "19.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs55.4",
+    "low52w": "Rs29.6",
+    "weekHigh": "Rs44.6",
+    "weekLow": "Rs41.9",
+    "highlights": [
+      "Automobile exposure keeps Eicher Motors on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Automobile exposure keeps Eicher Motors on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
   },
   {
     "name": "Suzlon Energy",
     "symbol": "SUZLON",
     "sector": "Renewable Energy",
-    "price": "Rs58",
-    "previousClose": "Rs56",
-    "dayChange": 3.2,
-    "priceBucket": "Under Rs100",
-    "volumeBucket": "Volume Spike",
+    "price": "Rs3,549",
+    "previousClose": "Rs3,574",
+    "dayChange": -0.7,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "Low Liquidity",
     "profitStatus": "Profitable",
-    "revenueTrend": "Up 8% YoY",
-    "netProfitTrend": "Volatile",
-    "debtToEquity": "0.28",
-    "operatingCashFlow": "Mixed",
-    "roe": "15.6%",
-    "promoterPledge": "0%",
-    "high52w": "Rs63",
-    "low52w": "Rs34",
-    "weekHigh": "Rs58",
-    "weekLow": "Rs53",
-    "highlights": [
-      "Low share price and high volume make it popular with short-term traders.",
-      "Business quality has improved.",
-      "Renewable energy themes continue to attract interest."
-    ],
-    "risks": [
-      "Earnings are still less steady than mature large-cap names."
-    ],
-    "bucket": "Short Term",
-    "stability": "High",
-    "evidence": [
-      "Low share price and high volume make it popular with short-term traders.",
-      "Business quality has improved.",
-      "Renewable energy themes continue to attract interest."
-    ]
-  },
-  {
-    "name": "Zomato",
-    "symbol": "ETERNAL",
-    "sector": "Internet Consumer",
-    "price": "Rs214",
-    "previousClose": "Rs216",
-    "dayChange": -1.1,
-    "priceBucket": "Rs100-500",
-    "volumeBucket": "High Volume",
-    "profitStatus": "Profitable",
-    "revenueTrend": "Up 23% YoY",
-    "netProfitTrend": "Improving",
-    "debtToEquity": "0.05",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "0.31",
     "operatingCashFlow": "Positive",
-    "roe": "9.8%",
+    "roe": "19.2%",
     "promoterPledge": "0%",
-    "high52w": "Rs248",
-    "low52w": "Rs146",
-    "weekHigh": "Rs221",
-    "weekLow": "Rs208",
+    "high52w": "Rs4,614",
+    "low52w": "Rs2,413",
+    "weekHigh": "Rs3,627",
+    "weekLow": "Rs3,414",
     "highlights": [
-      "Fast revenue growth keeps it on many watchlists.",
-      "Low debt helps financial stability.",
-      "The stock gets heavy user attention."
+      "Renewable Energy exposure keeps Suzlon Energy on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
     ],
     "risks": [
-      "Valuation and competition require close review."
+      "Sentiment can swing quickly, so this name needs closer monitoring."
     ],
     "bucket": "Watchlist",
     "stability": "Medium",
     "evidence": [
-      "Fast revenue growth keeps it on many watchlists.",
-      "Low debt helps financial stability.",
-      "The stock gets heavy user attention."
-    ]
+      "Renewable Energy exposure keeps Suzlon Energy on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
+  },
+  {
+    "name": "Persistent Systems",
+    "symbol": "PERSISTENT",
+    "sector": "Information Technology",
+    "price": "Rs4,125",
+    "previousClose": "Rs4,020",
+    "dayChange": 2.6,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.39",
+    "operatingCashFlow": "Positive",
+    "roe": "19.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,744",
+    "low52w": "Rs2,392",
+    "weekHigh": "Rs4,166",
+    "weekLow": "Rs4,001",
+    "highlights": [
+      "Information Technology exposure keeps Persistent Systems on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Information Technology exposure keeps Persistent Systems on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
+  },
+  {
+    "name": "Bharat Forge",
+    "symbol": "BHARATFORG",
+    "sector": "Industrials",
+    "price": "Rs85.6",
+    "previousClose": "Rs86.7",
+    "dayChange": -1.3,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.45",
+    "operatingCashFlow": "Mixed",
+    "roe": "12.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs95.9",
+    "low52w": "Rs53.9",
+    "weekHigh": "Rs87.5",
+    "weekLow": "Rs82.3",
+    "highlights": [
+      "Industrials exposure keeps Bharat Forge on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Industrials exposure keeps Bharat Forge on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 81
+  },
+  {
+    "name": "Kotak Mahindra Bank",
+    "symbol": "KOTAKBANK",
+    "sector": "Banking",
+    "price": "Rs71.6",
+    "previousClose": "Rs73.3",
+    "dayChange": -2.3,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 17% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "1.90",
+    "operatingCashFlow": "Positive",
+    "roe": "17.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs90.9",
+    "low52w": "Rs45.1",
+    "weekHigh": "Rs72.3",
+    "weekLow": "Rs69.5",
+    "highlights": [
+      "Banking exposure keeps Kotak Mahindra Bank on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Short Term",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Kotak Mahindra Bank on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 80
+  },
+  {
+    "name": "Shriram Finance",
+    "symbol": "SHRIRAMFIN",
+    "sector": "Financial Services",
+    "price": "Rs39.4",
+    "previousClose": "Rs38.9",
+    "dayChange": 1.3,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 6% YoY",
+    "debtToEquity": "1.86",
+    "operatingCashFlow": "Positive",
+    "roe": "17.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs48.9",
+    "low52w": "Rs26.8",
+    "weekHigh": "Rs39.8",
+    "weekLow": "Rs38.3",
+    "highlights": [
+      "Financial Services exposure keeps Shriram Finance on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Short Term",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps Shriram Finance on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 80
+  },
+  {
+    "name": "Bajaj Finance",
+    "symbol": "BAJFINANCE",
+    "sector": "Financial Services",
+    "price": "Rs224",
+    "previousClose": "Rs225",
+    "dayChange": -0.6,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "2.22",
+    "operatingCashFlow": "Positive",
+    "roe": "20.2%",
+    "promoterPledge": "Low",
+    "high52w": "Rs291",
+    "low52w": "Rs135",
+    "weekHigh": "Rs228",
+    "weekLow": "Rs215",
+    "highlights": [
+      "Financial Services exposure keeps Bajaj Finance on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps Bajaj Finance on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 78
+  },
+  {
+    "name": "Power Finance Corporation",
+    "symbol": "PFC",
+    "sector": "Financial Services",
+    "price": "Rs585",
+    "previousClose": "Rs596",
+    "dayChange": -1.8,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "2.10",
+    "operatingCashFlow": "Positive",
+    "roe": "20.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs760",
+    "low52w": "Rs368",
+    "weekHigh": "Rs605",
+    "weekLow": "Rs558",
+    "highlights": [
+      "Financial Services exposure keeps Power Finance Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps Power Finance Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 78
+  },
+  {
+    "name": "SBI Cards",
+    "symbol": "SBICARD",
+    "sector": "Financial Services",
+    "price": "Rs280",
+    "previousClose": "Rs288",
+    "dayChange": -2.9,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 18% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "2.34",
+    "operatingCashFlow": "Positive",
+    "roe": "20.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs364",
+    "low52w": "Rs162",
+    "weekHigh": "Rs282",
+    "weekLow": "Rs271",
+    "highlights": [
+      "Financial Services exposure keeps SBI Cards on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps SBI Cards on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 78
+  },
+  {
+    "name": "NHPC",
+    "symbol": "NHPC",
+    "sector": "Utilities",
+    "price": "Rs50.6",
+    "previousClose": "Rs51.5",
+    "dayChange": -1.9,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 11% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "1.49",
+    "operatingCashFlow": "Mixed",
+    "roe": "17.2%",
+    "promoterPledge": "Low",
+    "high52w": "Rs65.7",
+    "low52w": "Rs29.3",
+    "weekHigh": "Rs52.3",
+    "weekLow": "Rs48.2",
+    "highlights": [
+      "Utilities exposure keeps NHPC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Utilities exposure keeps NHPC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 78
+  },
+  {
+    "name": "Larsen & Toubro",
+    "symbol": "LT",
+    "sector": "Infrastructure",
+    "price": "Rs60.4",
+    "previousClose": "Rs62",
+    "dayChange": -2.6,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "0.92",
+    "operatingCashFlow": "Mixed",
+    "roe": "11.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs69.5",
+    "low52w": "Rs36.5",
+    "weekHigh": "Rs62.5",
+    "weekLow": "Rs57.6",
+    "highlights": [
+      "Infrastructure exposure keeps Larsen & Toubro on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Infrastructure exposure keeps Larsen & Toubro on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 76
+  },
+  {
+    "name": "Indian Hotels",
+    "symbol": "INDHOTEL",
+    "sector": "Hospitality",
+    "price": "Rs51.8",
+    "previousClose": "Rs51",
+    "dayChange": 1.6,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.74",
+    "operatingCashFlow": "Mixed",
+    "roe": "10.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs59.6",
+    "low52w": "Rs30.1",
+    "weekHigh": "Rs53",
+    "weekLow": "Rs49.9",
+    "highlights": [
+      "Hospitality exposure keeps Indian Hotels on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Hospitality exposure keeps Indian Hotels on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 76
+  },
+  {
+    "name": "GAIL India",
+    "symbol": "GAIL",
+    "sector": "Energy",
+    "price": "Rs128",
+    "previousClose": "Rs131",
+    "dayChange": -2.3,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.70",
+    "operatingCashFlow": "Positive",
+    "roe": "11.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs143",
+    "low52w": "Rs80.5",
+    "weekHigh": "Rs132",
+    "weekLow": "Rs122",
+    "highlights": [
+      "Energy exposure keeps GAIL India on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Sector cycles can change sentiment and margins quickly."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Energy exposure keeps GAIL India on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 76
+  },
+  {
+    "name": "Bajaj Finserv",
+    "symbol": "BAJAJFINSV",
+    "sector": "Financial Services",
+    "price": "Rs874",
+    "previousClose": "Rs847",
+    "dayChange": 3.2,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 5% YoY",
+    "netProfitTrend": "Up 12% YoY",
+    "debtToEquity": "2.10",
+    "operatingCashFlow": "Positive",
+    "roe": "11.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs979",
+    "low52w": "Rs550",
+    "weekHigh": "Rs883",
+    "weekLow": "Rs848",
+    "highlights": [
+      "Financial Services exposure keeps Bajaj Finserv on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Short Term",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps Bajaj Finserv on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 75
+  },
+  {
+    "name": "HDFC Bank",
+    "symbol": "HDFCBANK",
+    "sector": "Banking",
+    "price": "Rs2,430",
+    "previousClose": "Rs2,385",
+    "dayChange": 1.9,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "2.02",
+    "operatingCashFlow": "Positive",
+    "roe": "15.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs2,940",
+    "low52w": "Rs1,470",
+    "weekHigh": "Rs2,454",
+    "weekLow": "Rs2,357",
+    "highlights": [
+      "Banking exposure keeps HDFC Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps HDFC Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "ICICI Bank",
+    "symbol": "ICICIBANK",
+    "sector": "Banking",
+    "price": "Rs49.2",
+    "previousClose": "Rs50.7",
+    "dayChange": -2.9,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "2.14",
+    "operatingCashFlow": "Positive",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs61",
+    "low52w": "Rs28.5",
+    "weekHigh": "Rs50.3",
+    "weekLow": "Rs47.3",
+    "highlights": [
+      "Banking exposure keeps ICICI Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps ICICI Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "State Bank of India",
+    "symbol": "SBI",
+    "sector": "Banking",
+    "price": "Rs960",
+    "previousClose": "Rs952",
+    "dayChange": 0.8,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 15% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "1.66",
+    "operatingCashFlow": "Positive",
+    "roe": "15.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,162",
+    "low52w": "Rs653",
+    "weekHigh": "Rs981",
+    "weekLow": "Rs924",
+    "highlights": [
+      "Banking exposure keeps State Bank of India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps State Bank of India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Indian Railway Finance Corporation",
+    "symbol": "IRFC",
+    "sector": "Financial Services",
+    "price": "Rs3,936",
+    "previousClose": "Rs3,975",
+    "dayChange": -1.0,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "1.98",
+    "operatingCashFlow": "Positive",
+    "roe": "14.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,644",
+    "low52w": "Rs2,578",
+    "weekHigh": "Rs3,975",
+    "weekLow": "Rs3,817",
+    "highlights": [
+      "Financial Services exposure keeps Indian Railway Finance Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps Indian Railway Finance Corporation on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "REC",
+    "symbol": "RECLTD",
+    "sector": "Financial Services",
+    "price": "Rs205",
+    "previousClose": "Rs199",
+    "dayChange": 3.0,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "1.98",
+    "operatingCashFlow": "Positive",
+    "roe": "18.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs260",
+    "low52w": "Rs134",
+    "weekHigh": "Rs209",
+    "weekLow": "Rs197",
+    "highlights": [
+      "Financial Services exposure keeps REC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps REC on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Bandhan Bank",
+    "symbol": "BANDHANBNK",
+    "sector": "Banking",
+    "price": "Rs3,750",
+    "previousClose": "Rs3,731",
+    "dayChange": 0.5,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "1.78",
+    "operatingCashFlow": "Positive",
+    "roe": "12.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,312",
+    "low52w": "Rs2,456",
+    "weekHigh": "Rs3,878",
+    "weekLow": "Rs3,578",
+    "highlights": [
+      "Banking exposure keeps Bandhan Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Bandhan Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Bank of Baroda",
+    "symbol": "BANKBARODA",
+    "sector": "Banking",
+    "price": "Rs373",
+    "previousClose": "Rs383",
+    "dayChange": -2.6,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "2.02",
+    "operatingCashFlow": "Positive",
+    "roe": "15.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs451",
+    "low52w": "Rs226",
+    "weekHigh": "Rs381",
+    "weekLow": "Rs359",
+    "highlights": [
+      "Banking exposure keeps Bank of Baroda on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Bank of Baroda on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Punjab National Bank",
+    "symbol": "PNB",
+    "sector": "Banking",
+    "price": "Rs1,096",
+    "previousClose": "Rs1,106",
+    "dayChange": -0.9,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 8% YoY",
+    "debtToEquity": "2.14",
+    "operatingCashFlow": "Positive",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,359",
+    "low52w": "Rs636",
+    "weekHigh": "Rs1,133",
+    "weekLow": "Rs1,046",
+    "highlights": [
+      "Banking exposure keeps Punjab National Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Punjab National Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "IDFC First Bank",
+    "symbol": "IDFCFIRSTB",
+    "sector": "Banking",
+    "price": "Rs4,190",
+    "previousClose": "Rs4,157",
+    "dayChange": 0.8,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "1.66",
+    "operatingCashFlow": "Positive",
+    "roe": "17.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs5,321",
+    "low52w": "Rs2,849",
+    "weekHigh": "Rs4,232",
+    "weekLow": "Rs4,064",
+    "highlights": [
+      "Banking exposure keeps IDFC First Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps IDFC First Bank on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Tata Communications",
+    "symbol": "TATACOMM",
+    "sector": "Telecom",
+    "price": "Rs164",
+    "previousClose": "Rs164",
+    "dayChange": 0.1,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 7% YoY",
+    "debtToEquity": "2.04",
+    "operatingCashFlow": "Positive",
+    "roe": "12.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs204",
+    "low52w": "Rs95.3",
+    "weekHigh": "Rs168",
+    "weekLow": "Rs158",
+    "highlights": [
+      "Telecom exposure keeps Tata Communications on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Telecom exposure keeps Tata Communications on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 73
+  },
+  {
+    "name": "Page Industries",
+    "symbol": "PAGEIND",
+    "sector": "Consumer",
+    "price": "Rs75.2",
+    "previousClose": "Rs77.6",
+    "dayChange": -3.1,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 9% YoY",
+    "netProfitTrend": "Up 10% YoY",
+    "debtToEquity": "0.47",
+    "operatingCashFlow": "Mixed",
+    "roe": "19.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs93.2",
+    "low52w": "Rs45.5",
+    "weekHigh": "Rs76.8",
+    "weekLow": "Rs72.3",
+    "highlights": [
+      "Consumer exposure keeps Page Industries on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Medium",
+    "evidence": [
+      "Consumer exposure keeps Page Industries on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 71
+  },
+  {
+    "name": "Canara Bank",
+    "symbol": "CANBK",
+    "sector": "Banking",
+    "price": "Rs80",
+    "previousClose": "Rs78.3",
+    "dayChange": 2.2,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "1.90",
+    "operatingCashFlow": "Mixed",
+    "roe": "13.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs94.4",
+    "low52w": "Rs50.4",
+    "weekHigh": "Rs80.8",
+    "weekLow": "Rs77.6",
+    "highlights": [
+      "Banking exposure keeps Canara Bank on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Short Term",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Canara Bank on the review list.",
+      "Volume Spike helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 70
+  },
+  {
+    "name": "Union Bank of India",
+    "symbol": "UNIONBANK",
+    "sector": "Banking",
+    "price": "Rs175",
+    "previousClose": "Rs175",
+    "dayChange": -0.2,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 15% YoY",
+    "debtToEquity": "1.66",
+    "operatingCashFlow": "Positive",
+    "roe": "10.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs196",
+    "low52w": "Rs119",
+    "weekHigh": "Rs177",
+    "weekLow": "Rs170",
+    "highlights": [
+      "Banking exposure keeps Union Bank of India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Union Bank of India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 68
+  },
+  {
+    "name": "Axis Bank",
+    "symbol": "AXISBANK",
+    "sector": "Banking",
+    "price": "Rs3,310",
+    "previousClose": "Rs3,229",
+    "dayChange": 2.5,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 16% YoY",
+    "netProfitTrend": "Up 17% YoY",
+    "debtToEquity": "1.78",
+    "operatingCashFlow": "Positive",
+    "roe": "16.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,104",
+    "low52w": "Rs2,168",
+    "weekHigh": "Rs3,423",
+    "weekLow": "Rs3,158",
+    "highlights": [
+      "Banking exposure keeps Axis Bank on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps Axis Bank on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 63
+  },
+  {
+    "name": "IndusInd Bank",
+    "symbol": "INDUSINDBK",
+    "sector": "Banking",
+    "price": "Rs54.8",
+    "previousClose": "Rs54.8",
+    "dayChange": 0.1,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Low Liquidity",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "2.14",
+    "operatingCashFlow": "Positive",
+    "roe": "13.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs64.7",
+    "low52w": "Rs31.8",
+    "weekHigh": "Rs56.7",
+    "weekLow": "Rs52.3",
+    "highlights": [
+      "Banking exposure keeps IndusInd Bank on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Banking exposure keeps IndusInd Bank on the review list.",
+      "Low Liquidity helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 63
+  },
+  {
+    "name": "Bharti Airtel",
+    "symbol": "BHARTIARTL",
+    "sector": "Telecom",
+    "price": "Rs2,152",
+    "previousClose": "Rs2,106",
+    "dayChange": 2.2,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 13% YoY",
+    "debtToEquity": "1.80",
+    "operatingCashFlow": "Positive",
+    "roe": "6.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs2,411",
+    "low52w": "Rs1,356",
+    "weekHigh": "Rs2,200",
+    "weekLow": "Rs2,071",
+    "highlights": [
+      "Telecom exposure keeps Bharti Airtel on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "risks": [
+      "Higher leverage means balance sheet quality should be checked carefully."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Telecom exposure keeps Bharti Airtel on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Profitability gives the card a stronger base case."
+    ],
+    "recommendationScore": 62
+  },
+  {
+    "name": "Colgate-Palmolive India",
+    "symbol": "COLPAL",
+    "sector": "Consumer Staples",
+    "price": "Rs2,430",
+    "previousClose": "Rs2,389",
+    "dayChange": 1.7,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Loss-making",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Negative",
+    "debtToEquity": "0.25",
+    "operatingCashFlow": "Mixed",
+    "roe": "19.0%",
+    "promoterPledge": "0%",
+    "high52w": "Rs2,940",
+    "low52w": "Rs1,531",
+    "weekHigh": "Rs2,454",
+    "weekLow": "Rs2,357",
+    "highlights": [
+      "Consumer Staples exposure keeps Colgate-Palmolive India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Consumer Staples exposure keeps Colgate-Palmolive India on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "recommendationScore": 43
+  },
+  {
+    "name": "Godrej Consumer Products",
+    "symbol": "GODREJCP",
+    "sector": "Consumer Staples",
+    "price": "Rs1,572",
+    "previousClose": "Rs1,606",
+    "dayChange": -2.1,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Loss-making",
+    "revenueTrend": "Flat",
+    "netProfitTrend": "Negative",
+    "debtToEquity": "0.37",
+    "operatingCashFlow": "Mixed",
+    "roe": "17.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,855",
+    "low52w": "Rs951",
+    "weekHigh": "Rs1,607",
+    "weekLow": "Rs1,512",
+    "highlights": [
+      "Consumer Staples exposure keeps Godrej Consumer Products on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Consumer Staples exposure keeps Godrej Consumer Products on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "recommendationScore": 36
+  },
+  {
+    "name": "Adani Ports",
+    "symbol": "ADANIPORTS",
+    "sector": "Infrastructure",
+    "price": "Rs164",
+    "previousClose": "Rs163",
+    "dayChange": 0.6,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Loss-making",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Negative",
+    "debtToEquity": "1.04",
+    "operatingCashFlow": "Mixed",
+    "roe": "11.2%",
+    "promoterPledge": "0%",
+    "high52w": "Rs189",
+    "low52w": "Rs95.1",
+    "weekHigh": "Rs170",
+    "weekLow": "Rs156",
+    "highlights": [
+      "Infrastructure exposure keeps Adani Ports on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "risks": [
+      "Review the latest filings and management commentary before acting."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Infrastructure exposure keeps Adani Ports on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "recommendationScore": 31
   },
   {
     "name": "Vodafone Idea",
     "symbol": "IDEA",
     "sector": "Telecom",
-    "price": "Rs14",
-    "previousClose": "Rs14.4",
-    "dayChange": -2.9,
+    "price": "Rs66.3",
+    "previousClose": "Rs65.6",
+    "dayChange": 1.0,
     "priceBucket": "Under Rs100",
     "volumeBucket": "High Volume",
     "profitStatus": "Loss-making",
@@ -267,23 +4085,62 @@
     "operatingCashFlow": "Negative",
     "roe": "Negative",
     "promoterPledge": "Not Ideal",
-    "high52w": "Rs19",
-    "low52w": "Rs9.8",
-    "weekHigh": "Rs14.8",
-    "weekLow": "Rs14",
+    "high52w": "Rs74.3",
+    "low52w": "Rs43.4",
+    "weekHigh": "Rs68.5",
+    "weekLow": "Rs63.2",
     "highlights": [
-      "Frequently watched because of price accessibility and market interest.",
-      "Telecom headlines can move sentiment quickly."
+      "Telecom exposure keeps Vodafone Idea on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
     ],
     "risks": [
-      "Losses, leverage, and funding pressure remain major concerns."
+      "Sentiment can swing quickly, so this name needs closer monitoring."
     ],
     "bucket": "Watchlist",
     "stability": "Needs Review",
     "evidence": [
-      "Frequently watched because of price accessibility and market interest.",
-      "Telecom headlines can move sentiment quickly.",
-      "Losses, leverage, and funding pressure remain major concerns."
-    ]
+      "Telecom exposure keeps Vodafone Idea on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "recommendationScore": 18
+  },
+  {
+    "name": "PB Fintech",
+    "symbol": "POLICYBZR",
+    "sector": "Financial Services",
+    "price": "Rs3,936",
+    "previousClose": "Rs3,813",
+    "dayChange": 3.2,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Loss-making",
+    "revenueTrend": "Up 14% YoY",
+    "netProfitTrend": "Negative",
+    "debtToEquity": "Very High",
+    "operatingCashFlow": "Negative",
+    "roe": "Negative",
+    "promoterPledge": "Not Ideal",
+    "high52w": "Rs4,644",
+    "low52w": "Rs2,479",
+    "weekHigh": "Rs4,069",
+    "weekLow": "Rs3,754",
+    "highlights": [
+      "Financial Services exposure keeps PB Fintech on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "risks": [
+      "Sentiment can swing quickly, so this name needs closer monitoring."
+    ],
+    "bucket": "Watchlist",
+    "stability": "Needs Review",
+    "evidence": [
+      "Financial Services exposure keeps PB Fintech on the review list.",
+      "High Volume helps explain why the stock is drawing attention.",
+      "Losses mean this stock needs extra caution despite the interest."
+    ],
+    "recommendationScore": 18
   }
 ]

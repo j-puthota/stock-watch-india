@@ -1,4 +1,6 @@
 let stocks = [];
+let visibleCount = 10;
+const pageSize = 10;
 
 const searchInput = document.querySelector("#search-input");
 const bucketFilter = document.querySelector("#bucket-filter");
@@ -9,6 +11,7 @@ const stabilityFilter = document.querySelector("#stability-filter");
 const stockGrid = document.querySelector("#stock-grid");
 const filterSummary = document.querySelector("#filter-summary");
 const template = document.querySelector("#stock-card-template");
+const loadMoreButton = document.querySelector("#load-more-button");
 
 const totalCount = document.querySelector("#total-count");
 const profitableCount = document.querySelector("#profitable-count");
@@ -27,6 +30,78 @@ function renderError(message) {
   errorState.textContent = message;
   stockGrid.appendChild(errorState);
   filterSummary.textContent = "The stock file could not be loaded.";
+}
+
+function parseNumber(value) {
+  if (typeof value === "number") {
+    return value;
+  }
+
+  const cleaned = String(value ?? "").replace(/[^0-9.-]/g, "");
+  const parsed = Number(cleaned);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function computeScore(stock) {
+  let score = 50;
+  const debt = parseNumber(stock.debtToEquity);
+  const roe = parseNumber(stock.roe);
+
+  if (stock.profitStatus === "Profitable") {
+    score += 12;
+  } else {
+    score -= 18;
+  }
+
+  if (stock.operatingCashFlow === "Positive") {
+    score += 10;
+  } else if (stock.operatingCashFlow === "Negative") {
+    score -= 10;
+  }
+
+  if (stock.volumeBucket === "Volume Spike") {
+    score += 8;
+  } else if (stock.volumeBucket === "High Volume") {
+    score += 6;
+  } else {
+    score -= 4;
+  }
+
+  if (stock.stability === "High") {
+    score += 14;
+  } else if (stock.stability === "Medium") {
+    score += 5;
+  } else {
+    score -= 10;
+  }
+
+  if (debt !== null) {
+    if (debt <= 0.3) {
+      score += 10;
+    } else if (debt <= 1.2) {
+      score += 3;
+    } else if (debt > 3) {
+      score -= 8;
+    }
+  }
+
+  if (roe !== null) {
+    if (roe >= 20) {
+      score += 10;
+    } else if (roe >= 12) {
+      score += 5;
+    } else if (roe < 8) {
+      score -= 6;
+    }
+  }
+
+  if (stock.bucket === "Long Term") {
+    score += 8;
+  } else if (stock.bucket === "Short Term") {
+    score += 5;
+  }
+
+  return Math.max(1, Math.min(99, Math.round(score)));
 }
 
 function getFilteredStocks() {
@@ -55,7 +130,7 @@ function getFilteredStocks() {
 
 function updateSummary(filteredStocks) {
   totalCount.textContent = `${stocks.length} Stocks`;
-  profitableCount.textContent = `${stocks.filter((stock) => stock.profitStatus === "Profitable").length}`;
+  profitableCount.textContent = `${Math.min(visibleCount, filteredStocks.length)} Shown`;
   stableCount.textContent = `${stocks.filter((stock) => stock.stability === "High").length}`;
 
   const summaryParts = [];
@@ -80,11 +155,11 @@ function updateSummary(filteredStocks) {
   }
 
   if (summaryParts.length === 0) {
-    filterSummary.textContent = `Showing ${filteredStocks.length} demo stock cards. Use the filters above to simplify the list.`;
+    filterSummary.textContent = `Showing ${Math.min(visibleCount, filteredStocks.length)} of ${filteredStocks.length} ranked stock cards. Use the filters above to narrow the list.`;
     return;
   }
 
-  filterSummary.textContent = `Showing ${filteredStocks.length} stock cards for ${summaryParts.join(", ")}.`;
+  filterSummary.textContent = `Showing ${Math.min(visibleCount, filteredStocks.length)} of ${filteredStocks.length} stock cards for ${summaryParts.join(", ")}.`;
 }
 
 function createTag(text, extraClassName) {
@@ -95,7 +170,9 @@ function createTag(text, extraClassName) {
 }
 
 function renderStocks() {
-  const filteredStocks = getFilteredStocks();
+  const filteredStocks = getFilteredStocks()
+    .slice()
+    .sort((a, b) => (b.recommendationScore ?? computeScore(b)) - (a.recommendationScore ?? computeScore(a)));
   updateSummary(filteredStocks);
   stockGrid.innerHTML = "";
 
@@ -104,12 +181,12 @@ function renderStocks() {
     emptyState.className = "empty-state";
     emptyState.textContent = "No stocks match these filters. Try clearing one or two filters.";
     stockGrid.appendChild(emptyState);
+    loadMoreButton.hidden = true;
     return;
   }
 
-  filteredStocks.forEach((stock) => {
+  filteredStocks.slice(0, visibleCount).forEach((stock) => {
     const node = template.content.cloneNode(true);
-    const card = node.querySelector(".stock-card");
     const changeEl = node.querySelector(".stock-change");
 
     node.querySelector(".stock-bucket").textContent = stock.bucket;
@@ -118,6 +195,7 @@ function renderStocks() {
     node.querySelector(".stock-sector").textContent = stock.sector;
     node.querySelector(".stock-price").textContent = stock.price;
     node.querySelector(".stock-prev-close").textContent = `Prev close: ${stock.previousClose}`;
+    node.querySelector(".stock-score").textContent = `Score ${stock.recommendationScore ?? computeScore(stock)}/99`;
 
     changeEl.textContent = formatChange(stock.dayChange);
     changeEl.classList.add(stock.dayChange >= 0 ? "up" : "down");
@@ -144,10 +222,10 @@ function renderStocks() {
 
     node.querySelector(".roe").textContent = stock.roe;
     node.querySelector(".pledge").textContent = stock.promoterPledge;
-    node.querySelector(".week-high").textContent = stock.weekHigh;
-    node.querySelector(".week-low").textContent = stock.weekLow;
-    node.querySelector(".high-52w").textContent = stock.high52w;
-    node.querySelector(".low-52w").textContent = stock.low52w;
+    node.querySelector(".week-high").textContent = stock.weekHigh || "Not available";
+    node.querySelector(".week-low").textContent = stock.weekLow || "Not available";
+    node.querySelector(".high-52w").textContent = stock.high52w || "Not available";
+    node.querySelector(".low-52w").textContent = stock.low52w || "Not available";
 
     const evidenceList = node.querySelector(".evidence-list");
     stock.evidence.forEach((item) => {
@@ -156,9 +234,10 @@ function renderStocks() {
       evidenceList.appendChild(li);
     });
 
-    card.dataset.bucket = stock.bucket;
     stockGrid.appendChild(node);
   });
+
+  loadMoreButton.hidden = visibleCount >= filteredStocks.length;
 }
 
 [
@@ -169,8 +248,19 @@ function renderStocks() {
   profitFilter,
   stabilityFilter
 ].forEach((control) => {
-  control.addEventListener("input", renderStocks);
-  control.addEventListener("change", renderStocks);
+  control.addEventListener("input", () => {
+    visibleCount = pageSize;
+    renderStocks();
+  });
+  control.addEventListener("change", () => {
+    visibleCount = pageSize;
+    renderStocks();
+  });
+});
+
+loadMoreButton.addEventListener("click", () => {
+  visibleCount += pageSize;
+  renderStocks();
 });
 
 async function loadStocks() {
@@ -188,6 +278,10 @@ async function loadStocks() {
     }
 
     stocks = payload;
+    stocks = stocks.map((stock) => ({
+      ...stock,
+      recommendationScore: stock.recommendationScore ?? computeScore(stock)
+    }));
     renderStocks();
   } catch (error) {
     console.error(error);
