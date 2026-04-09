@@ -228,6 +228,15 @@ h3 {
   margin-top: 16px;
 }
 
+.filter-actions {
+  margin-top: 14px;
+}
+
+.filter-actions .secondary-action {
+  min-height: 44px;
+  padding: 0 16px;
+}
+
 .marker-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -455,6 +464,11 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 22px;
+}
+
+#load-more-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 .topbar-note {

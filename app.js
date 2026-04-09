@@ -12,6 +12,7 @@ const stockGrid = document.querySelector("#stock-grid");
 const filterSummary = document.querySelector("#filter-summary");
 const template = document.querySelector("#stock-card-template");
 const loadMoreButton = document.querySelector("#load-more-button");
+const resetFiltersButton = document.querySelector("#reset-filters-button");
 
 const totalCount = document.querySelector("#total-count");
 const profitableCount = document.querySelector("#profitable-count");
@@ -162,6 +163,16 @@ function updateSummary(filteredStocks) {
   filterSummary.textContent = `Showing ${Math.min(visibleCount, filteredStocks.length)} of ${filteredStocks.length} stock cards for ${summaryParts.join(", ")}.`;
 }
 
+function resetFilters() {
+  searchInput.value = "";
+  bucketFilter.value = "all";
+  priceFilter.value = "all";
+  volumeFilter.value = "all";
+  profitFilter.value = "all";
+  stabilityFilter.value = "all";
+  visibleCount = pageSize;
+}
+
 function createTag(text, extraClassName) {
   const tag = document.createElement("span");
   tag.textContent = text;
@@ -228,7 +239,11 @@ function renderStocks() {
     node.querySelector(".low-52w").textContent = stock.low52w || "Not available";
 
     const evidenceList = node.querySelector(".evidence-list");
-    stock.evidence.forEach((item) => {
+    const evidenceItems = Array.isArray(stock.evidence) && stock.evidence.length > 0
+      ? stock.evidence
+      : ["No evidence summary available yet."];
+
+    evidenceItems.forEach((item) => {
       const li = document.createElement("li");
       li.textContent = item;
       evidenceList.appendChild(li);
@@ -237,7 +252,13 @@ function renderStocks() {
     stockGrid.appendChild(node);
   });
 
-  loadMoreButton.hidden = visibleCount >= filteredStocks.length;
+  if (visibleCount >= filteredStocks.length) {
+    loadMoreButton.disabled = true;
+    loadMoreButton.textContent = "All Matching Stocks Shown";
+  } else {
+    loadMoreButton.disabled = false;
+    loadMoreButton.textContent = "Show 10 More";
+  }
 }
 
 [
@@ -263,6 +284,11 @@ loadMoreButton.addEventListener("click", () => {
   renderStocks();
 });
 
+resetFiltersButton.addEventListener("click", () => {
+  resetFilters();
+  renderStocks();
+});
+
 async function loadStocks() {
   try {
     const response = await fetch("./data/stocks.json", { cache: "no-store" });
@@ -282,6 +308,7 @@ async function loadStocks() {
       ...stock,
       recommendationScore: stock.recommendationScore ?? computeScore(stock)
     }));
+    resetFilters();
     renderStocks();
   } catch (error) {
     console.error(error);
