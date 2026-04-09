@@ -290,17 +290,39 @@ resetFiltersButton.addEventListener("click", () => {
 });
 
 async function loadStocks() {
-  try {
-    const response = await fetch("./data/stocks.json", { cache: "no-store" });
+  const dataCandidates = [
+    "./data/stocks.json",
+    "./stocks.json",
+    "/data/stocks.json"
+  ];
+  const errors = [];
 
-    if (!response.ok) {
-      throw new Error(`Request failed with status ${response.status}`);
+  try {
+    let payload = null;
+
+    for (const path of dataCandidates) {
+      try {
+        const response = await fetch(path, { cache: "no-store" });
+        if (!response.ok) {
+          errors.push(`${path} -> HTTP ${response.status}`);
+          continue;
+        }
+
+        const parsed = await response.json();
+        if (!Array.isArray(parsed)) {
+          errors.push(`${path} -> JSON is not an array`);
+          continue;
+        }
+
+        payload = parsed;
+        break;
+      } catch (candidateError) {
+        errors.push(`${path} -> ${candidateError.message}`);
+      }
     }
 
-    const payload = await response.json();
-
-    if (!Array.isArray(payload)) {
-      throw new Error("Stock data must be an array.");
+    if (!payload) {
+      throw new Error(errors.join(" | "));
     }
 
     stocks = payload;
@@ -312,7 +334,7 @@ async function loadStocks() {
     renderStocks();
   } catch (error) {
     console.error(error);
-    renderError("The stock cards could not be loaded. Make sure data/stocks.json is present on the site.");
+    renderError("Stock data could not be loaded. Check data/stocks.json (or stocks.json at root) on GitHub Pages.");
   }
 }
 
