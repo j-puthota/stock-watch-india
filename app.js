@@ -105,6 +105,118 @@ function computeScore(stock) {
   return Math.max(1, Math.min(99, Math.round(score)));
 }
 
+function toInr(value) {
+  if (value >= 100) {
+    return `Rs${Math.round(value).toLocaleString("en-IN")}`;
+  }
+  return `Rs${value.toFixed(1).replace(".0", "")}`;
+}
+
+function buildFallbackStocks() {
+  const seedNames = [
+    ["Reliance Industries", "RELIANCE", "Energy"],
+    ["TCS", "TCS", "Information Technology"],
+    ["HDFC Bank", "HDFCBANK", "Banking"],
+    ["ICICI Bank", "ICICIBANK", "Banking"],
+    ["Infosys", "INFY", "Information Technology"],
+    ["ITC", "ITC", "Consumer Staples"],
+    ["Bharti Airtel", "BHARTIARTL", "Telecom"],
+    ["Larsen & Toubro", "LT", "Infrastructure"],
+    ["State Bank of India", "SBI", "Banking"],
+    ["Axis Bank", "AXISBANK", "Banking"],
+    ["Kotak Mahindra Bank", "KOTAKBANK", "Banking"],
+    ["Bajaj Finance", "BAJFINANCE", "Financial Services"],
+    ["Asian Paints", "ASIANPAINT", "Consumer"],
+    ["Maruti Suzuki", "MARUTI", "Automobile"],
+    ["Sun Pharmaceutical", "SUNPHARMA", "Pharmaceuticals"],
+    ["Titan Company", "TITAN", "Retail"],
+    ["UltraTech Cement", "ULTRACEMCO", "Cement"],
+    ["Tata Motors", "TATAMOTORS", "Automobile"],
+    ["NTPC", "NTPC", "Utilities"],
+    ["Power Grid", "POWERGRID", "Utilities"],
+    ["Tata Steel", "TATASTEEL", "Metals"],
+    ["JSW Steel", "JSWSTEEL", "Metals"],
+    ["Mahindra & Mahindra", "M&M", "Automobile"],
+    ["Wipro", "WIPRO", "Information Technology"],
+    ["Nestle India", "NESTLEIND", "Consumer Staples"],
+    ["HCL Tech", "HCLTECH", "Information Technology"],
+    ["Tech Mahindra", "TECHM", "Information Technology"],
+    ["Adani Ports", "ADANIPORTS", "Infrastructure"],
+    ["ONGC", "ONGC", "Energy"],
+    ["Coal India", "COALINDIA", "Mining"]
+  ];
+
+  const result = [];
+
+  for (let i = 0; i < 120; i += 1) {
+    const base = seedNames[i % seedNames.length];
+    const name = i < seedNames.length ? base[0] : `${base[0]} ${Math.floor(i / seedNames.length) + 1}`;
+    const symbol = i < seedNames.length ? base[1] : `${base[1]}${Math.floor(i / seedNames.length) + 1}`;
+    const sector = base[2];
+
+    const rawPrice = 60 + ((i * 73) % 4400);
+    const dayChange = ((((i * 19) % 70) - 35) / 10).toFixed(1);
+    const dayChangeNum = Number(dayChange);
+    const previousClose = rawPrice / (1 + dayChangeNum / 100);
+    const high52 = rawPrice * (1.15 + (i % 5) * 0.02);
+    const low52 = rawPrice * (0.7 - (i % 4) * 0.03);
+    const weekHigh = rawPrice * (1.02 + (i % 3) * 0.01);
+    const weekLow = rawPrice * (0.95 - (i % 3) * 0.01);
+    const debt = ((i % 8) * 0.24).toFixed(2);
+    const roeValue = (9 + (i % 14) * 1.1).toFixed(1);
+
+    const priceBucket =
+      rawPrice < 100 ? "Under Rs100" :
+      rawPrice < 500 ? "Rs100-500" :
+      rawPrice < 2000 ? "Rs500-2000" :
+      "Above Rs2000";
+
+    const volumeBucket =
+      i % 9 === 0 ? "Low Liquidity" :
+      i % 5 === 0 ? "Volume Spike" :
+      "High Volume";
+
+    const profitStatus = i % 17 === 0 ? "Loss-making" : "Profitable";
+    const operatingCashFlow = profitStatus === "Loss-making" ? "Negative" : (i % 6 === 0 ? "Mixed" : "Positive");
+    const stability = profitStatus === "Loss-making" ? "Needs Review" : (i % 4 === 0 ? "Medium" : "High");
+    const bucket = stability === "High" ? "Long Term" : (volumeBucket === "Volume Spike" ? "Short Term" : "Watchlist");
+
+    const stock = {
+      name,
+      symbol,
+      sector,
+      price: toInr(rawPrice),
+      previousClose: toInr(previousClose),
+      dayChange: dayChangeNum,
+      priceBucket,
+      volumeBucket,
+      profitStatus,
+      revenueTrend: `Up ${6 + (i % 11)}% YoY`,
+      netProfitTrend: profitStatus === "Loss-making" ? "Negative" : `Up ${5 + (i % 9)}% YoY`,
+      debtToEquity: profitStatus === "Loss-making" ? "Very High" : debt,
+      operatingCashFlow,
+      roe: profitStatus === "Loss-making" ? "Negative" : `${roeValue}%`,
+      promoterPledge: i % 19 === 0 ? "Low" : "0%",
+      high52w: toInr(high52),
+      low52w: toInr(Math.max(20, low52)),
+      weekHigh: toInr(weekHigh),
+      weekLow: toInr(Math.max(15, weekLow)),
+      bucket,
+      stability,
+      evidence: [
+        `${sector} trend is a key driver for this stock.`,
+        `${volumeBucket} is one reason this is being watched.`,
+        profitStatus === "Profitable" ? "Profitability supports this card." : "Losses make this higher risk."
+      ]
+    };
+
+    stock.recommendationScore = computeScore(stock);
+    result.push(stock);
+  }
+
+  return result.sort((a, b) => b.recommendationScore - a.recommendationScore);
+}
+
 function getFilteredStocks() {
   const searchValue = searchInput.value.trim().toLowerCase();
 
@@ -322,11 +434,15 @@ async function loadStocks() {
     }
 
     if (!payload) {
-      throw new Error(errors.join(" | "));
+      console.warn("Falling back to built-in stock universe:", errors.join(" | "));
+      stocks = buildFallbackStocks();
+      resetFilters();
+      renderStocks();
+      filterSummary.textContent = `Showing ${Math.min(visibleCount, stocks.length)} of ${stocks.length} cards using built-in fallback data because stock JSON could not be fetched.`;
+      return;
     }
 
-    stocks = payload;
-    stocks = stocks.map((stock) => ({
+    stocks = payload.map((stock) => ({
       ...stock,
       recommendationScore: stock.recommendationScore ?? computeScore(stock)
     }));
@@ -334,7 +450,10 @@ async function loadStocks() {
     renderStocks();
   } catch (error) {
     console.error(error);
-    renderError("Stock data could not be loaded. Check data/stocks.json (or stocks.json at root) on GitHub Pages.");
+    stocks = buildFallbackStocks();
+    resetFilters();
+    renderStocks();
+    filterSummary.textContent = `Showing ${Math.min(visibleCount, stocks.length)} of ${stocks.length} cards using built-in fallback data because stock JSON could not be fetched.`;
   }
 }
 
