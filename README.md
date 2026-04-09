@@ -21,6 +21,7 @@ A lightweight static prototype for an Indian stock watchlist web app aimed at ol
 - `data/company_snapshots.json` contains the base stock inputs
 - `data/stocks.json` contains the generated card data shown on the site
 - `scripts/seed_company_snapshots.py` creates a larger demo universe of 100+ Indian stocks
+- `scripts/update_prices_official_eod.py` refreshes prices using official NSE EOD bhavcopy archives
 - `scripts/generate_stocks.py` builds `data/stocks.json`
 - `.github/workflows/update-stocks.yml` runs the daily refresh
 
@@ -81,9 +82,19 @@ GEMINI_MODEL=gemini-2.0-flash
 
 - reads `data/company_snapshots.json`
 - can regenerate the 100+ stock demo universe first
+- refreshes prices from official NSE EOD bhavcopy archives
 - uses OpenAI, Gemini, or a built-in fallback classifier
 - writes the final card file to `data/stocks.json`
 - commits the updated JSON back to the repository
+
+### Automatic vs Manual Runs
+
+- Automatic: the workflow runs once every weekday using the cron schedule in `.github/workflows/update-stocks.yml`.
+- Manual: you can run it anytime from GitHub `Actions` -> `Update Stock Cards` -> `Run workflow`.
+
+By default, the schedule is:
+
+- `15 13 * * 1-5` (UTC), which is approximately 6:45 PM India time on weekdays.
 
 ### Important architecture note
 
