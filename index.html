@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Watch India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Simple Stock Watchlist for India</p>
+          <h1>Easy-to-read stock cards with financial health, stability markers, and plain-English reasons.</h1>
+          <p class="hero-text">
+            This demo is designed for people who want a calm, simple view. It does not give direct buy advice.
+            It highlights companies worth reviewing based on bucket, momentum, financial strength, and evidence.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#stocks">View Stock Cards</a>
+            <a class="secondary-action" href="#build">Build It Free</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Summary">
+          <div class="metric-card">
+            <span class="metric-label">Demo Universe</span>
+            <strong id="total-count">0 Stocks</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Profitable</span>
+            <strong id="profitable-count">0</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Stable Picks</span>
+            <strong id="stable-count">0</strong>
+          </div>
+          <p class="note">
+            Demo values are illustrative for layout and product design. Replace with live or end-of-day data before use.
+          </p>
+        </aside>
+      </header>
+
+      <main>
+        <section class="filters" aria-labelledby="filters-title">
+          <div class="section-heading">
+            <p class="section-kicker">Easy Filters</p>
+            <h2 id="filters-title">Find stocks in a way that feels simple.</h2>
+          </div>
+          <div class="filter-grid">
+            <label class="filter-control">
+              <span>Search company</span>
+              <input id="search-input" type="search" placeholder="Type a company name" />
+            </label>
+            <label class="filter-control">
+              <span>Bucket</span>
+              <select id="bucket-filter">
+                <option value="all">All buckets</option>
+                <option value="Short Term">Short Term</option>
+                <option value="Long Term">Long Term</option>
+                <option value="Watchlist">Watchlist</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Price range</span>
+              <select id="price-filter">
+                <option value="all">All price ranges</option>
+                <option value="Under Rs100">Under Rs100</option>
+                <option value="Rs100-500">Rs100-500</option>
+                <option value="Rs500-2000">Rs500-2000</option>
+                <option value="Above Rs2000">Above Rs2000</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Volume signal</span>
+              <select id="volume-filter">
+                <option value="all">All volume signals</option>
+                <option value="High Volume">High Volume</option>
+                <option value="Volume Spike">Volume Spike</option>
+                <option value="Low Liquidity">Low Liquidity</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Financial health</span>
+              <select id="profit-filter">
+                <option value="all">All companies</option>
+                <option value="Profitable">Profitable</option>
+                <option value="Loss-making">Loss-making</option>
+              </select>
+            </label>
+            <label class="filter-control">
+              <span>Stability</span>
+              <select id="stability-filter">
+                <option value="all">All stability levels</option>
+                <option value="High">High stability</option>
+                <option value="Medium">Medium stability</option>
+                <option value="Needs Review">Needs review</option>
+              </select>
+            </label>
+          </div>
+          <p class="filter-summary" id="filter-summary" aria-live="polite"></p>
+        </section>
+
+        <section class="markers" aria-labelledby="markers-title">
+          <div class="section-heading">
+            <p class="section-kicker">What Makes A Company Stable</p>
+            <h2 id="markers-title">Key markers shown on every card.</h2>
+          </div>
+          <div class="marker-grid">
+            <article class="marker-card">
+              <h3>Profitability</h3>
+              <p>Shows whether the business is making profit and whether profit is growing or falling.</p>
+            </article>
+            <article class="marker-card">
+              <h3>Debt Level</h3>
+              <p>Uses debt to equity and interest coverage to show whether borrowings look manageable.</p>
+            </article>
+            <article class="marker-card">
+              <h3>Cash Flow</h3>
+              <p>Positive operating cash flow is a strong sign the business converts sales into cash.</p>
+            </article>
+            <article class="marker-card">
+              <h3>Return Ratios</h3>
+              <p>ROE and ROCE help show how efficiently the company uses money to generate returns.</p>
+            </article>
+            <article class="marker-card">
+              <h3>Promoter Quality</h3>
+              <p>Promoter holding and pledge status can signal confidence and financial stress.</p>
+            </article>
+            <article class="marker-card">
+              <h3>Volume Strength</h3>
+              <p>Volume helps explain whether market interest is rising or whether liquidity is weak.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="stocks" class="stocks-section" aria-labelledby="stocks-title">
+          <div class="section-heading">
+            <p class="section-kicker">Stock Cards</p>
+            <h2 id="stocks-title">Short-term, long-term, and watchlist ideas.</h2>
+          </div>
+          <div id="stock-grid" class="stock-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="build" class="build-section" aria-labelledby="build-title">
+          <div class="section-heading">
+            <p class="section-kicker">Build With AI</p>
+            <h2 id="build-title">The lowest-maintenance way to turn this into a real product.</h2>
+          </div>
+          <div class="build-grid">
+            <article class="build-card">
+              <h3>1. Design the first version with AI</h3>
+              <p>
+                Use Firebase Studio or v0 to generate the interface from a prompt. Keep the app static at first so
+                there are no user logins, no backend, and almost no maintenance.
+              </p>
+            </article>
+            <article class="build-card">
+              <h3>2. Precompute the stock data daily</h3>
+              <p>
+                Pull official filings and market data after market close, generate a JSON file, and publish the new
+                cards once a day instead of on every visit.
+              </p>
+            </article>
+            <article class="build-card">
+              <h3>3. Deploy it free</h3>
+              <p>
+                Host the static site on Cloudflare Pages or GitHub Pages. This is the cheapest and easiest path for a
+                simple public website.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="stock-card-template">
+      <article class="stock-card">
+        <header class="stock-card-header">
+          <div>
+            <p class="stock-bucket"></p>
+            <h3 class="stock-name"></h3>
+            <p class="stock-symbol"></p>
+          </div>
+          <div class="price-panel">
+            <strong class="stock-price"></strong>
+            <span class="stock-change"></span>
+          </div>
+        </header>
+
+        <div class="tag-row">
+          <span class="tag price-tag"></span>
+          <span class="tag volume-tag"></span>
+          <span class="tag stability-tag"></span>
+          <span class="tag profit-tag"></span>
+        </div>
+
+        <dl class="financial-grid">
+          <div>
+            <dt>Revenue Trend</dt>
+            <dd class="revenue-trend"></dd>
+          </div>
+          <div>
+            <dt>Net Profit Trend</dt>
+            <dd class="profit-trend"></dd>
+          </div>
+          <div>
+            <dt>Debt to Equity</dt>
+            <dd class="debt-level"></dd>
+          </div>
+          <div>
+            <dt>Operating Cash Flow</dt>
+            <dd class="cash-flow"></dd>
+          </div>
+          <div>
+            <dt>ROE</dt>
+            <dd class="roe"></dd>
+          </div>
+          <div>
+            <dt>Promoter Pledge</dt>
+            <dd class="pledge"></dd>
+          </div>
+        </dl>
+
+        <section class="evidence-panel">
+          <h4>Why it is on the watchlist</h4>
+          <ul class="evidence-list"></ul>
+        </section>
+      </article>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
