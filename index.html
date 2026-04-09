@@ -15,36 +15,39 @@
   <body>
     <div class="page-shell">
       <header class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Simple Stock Watchlist for India</p>
-          <h1>Easy-to-read stock cards with financial health, stability markers, and plain-English reasons.</h1>
-          <p class="hero-text">
-            This demo is designed for people who want a calm, simple view. It does not give direct buy advice.
-            It highlights companies worth reviewing based on bucket, momentum, financial strength, and evidence.
-          </p>
-          <div class="hero-actions">
+        <div class="hero-copy hero-copy-compact">
+          <div>
+            <p class="eyebrow">Simple Stock Watchlist for India</p>
+            <h1>Track possible opportunities without the clutter.</h1>
+            <p class="hero-text compact">
+              Clear cards, plain-English signals, and financial stability markers. Built for easy reading, not trading
+              noise.
+            </p>
+          </div>
+          <div class="hero-actions compact">
             <a class="primary-action" href="#stocks">View Stock Cards</a>
-            <a class="secondary-action" href="#build">Build It Free</a>
+            <a class="secondary-action" href="#build">How To Build It Free</a>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Summary">
-          <div class="metric-card">
-            <span class="metric-label">Demo Universe</span>
-            <strong id="total-count">0 Stocks</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Profitable</span>
-            <strong id="profitable-count">0</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Stable Picks</span>
-            <strong id="stable-count">0</strong>
-          </div>
-          <p class="note">
-            Demo values are illustrative for layout and product design. Replace with live or end-of-day data before use.
-          </p>
-        </aside>
       </header>
+
+      <section class="summary-strip" aria-label="Summary">
+        <div class="metric-card">
+          <span class="metric-label">Demo Universe</span>
+          <strong id="total-count">0 Stocks</strong>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Profitable</span>
+          <strong id="profitable-count">0</strong>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Stable Picks</span>
+          <strong id="stable-count">0</strong>
+        </div>
+        <p class="note summary-note">
+          Demo values are illustrative. For a real version, update the JSON once daily after market close.
+        </p>
+      </section>
 
       <main>
         <section class="filters" aria-labelledby="filters-title">
@@ -144,7 +147,9 @@
             <p class="section-kicker">Stock Cards</p>
             <h2 id="stocks-title">Short-term, long-term, and watchlist ideas.</h2>
           </div>
-          <div id="stock-grid" class="stock-grid" aria-live="polite"></div>
+          <div id="stock-grid" class="stock-grid" aria-live="polite">
+            <div class="empty-state">Loading stock cards...</div>
+          </div>
         </section>
 
         <section id="build" class="build-section" aria-labelledby="build-title">
@@ -186,10 +191,12 @@
             <p class="stock-bucket"></p>
             <h3 class="stock-name"></h3>
             <p class="stock-symbol"></p>
+            <p class="stock-sector"></p>
           </div>
           <div class="price-panel">
             <strong class="stock-price"></strong>
             <span class="stock-change"></span>
+            <span class="stock-prev-close"></span>
           </div>
         </header>
 
@@ -201,6 +208,10 @@
         </div>
 
         <dl class="financial-grid">
+          <div>
+            <dt>52W Range</dt>
+            <dd class="year-range"></dd>
+          </div>
           <div>
             <dt>Revenue Trend</dt>
             <dd class="revenue-trend"></dd>
@@ -226,6 +237,28 @@
             <dd class="pledge"></dd>
           </div>
         </dl>
+
+        <details class="details-panel">
+          <summary>More details</summary>
+          <dl class="details-grid">
+            <div>
+              <dt>5D High</dt>
+              <dd class="week-high"></dd>
+            </div>
+            <div>
+              <dt>5D Low</dt>
+              <dd class="week-low"></dd>
+            </div>
+            <div>
+              <dt>52W High</dt>
+              <dd class="high-52w"></dd>
+            </div>
+            <div>
+              <dt>52W Low</dt>
+              <dd class="low-52w"></dd>
+            </div>
+          </dl>
+        </details>
 
         <section class="evidence-panel">
           <h4>Why it is on the watchlist</h4>

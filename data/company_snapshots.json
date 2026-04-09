@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Infosys",
+    "symbol": "INFY",
+    "sector": "Information Technology",
+    "price": "Rs1,648",
+    "previousClose": "Rs1,619",
+    "dayChange": 1.8,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 7% YoY",
+    "netProfitTrend": "Up 9% YoY",
+    "debtToEquity": "0.09",
+    "operatingCashFlow": "Positive",
+    "roe": "29.4%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,732",
+    "low52w": "Rs1,358",
+    "weekHigh": "Rs1,651",
+    "weekLow": "Rs1,579",
+    "highlights": [
+      "Large-cap IT company with strong cash generation.",
+      "Low debt and no promoter pledge improve quality.",
+      "High trading activity supports easier tracking."
+    ],
+    "risks": [
+      "Global IT spending can soften during slower business cycles."
+    ]
+  },
+  {
+    "name": "Tata Motors",
+    "symbol": "TATAMOTORS",
+    "sector": "Automobile",
+    "price": "Rs1,024",
+    "previousClose": "Rs1,000",
+    "dayChange": 2.4,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 12% YoY",
+    "netProfitTrend": "Up 14% YoY",
+    "debtToEquity": "1.18",
+    "operatingCashFlow": "Positive",
+    "roe": "19.1%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,065",
+    "low52w": "Rs718",
+    "weekHigh": "Rs1,024",
+    "weekLow": "Rs972",
+    "highlights": [
+      "Momentum and volume both increased recently.",
+      "Profit growth is still healthy.",
+      "Auto updates can move the stock quickly."
+    ],
+    "risks": [
+      "Debt is higher than conservative long-term names."
+    ]
+  },
+  {
+    "name": "Hindustan Aeronautics",
+    "symbol": "HAL",
+    "sector": "Defence",
+    "price": "Rs4,112",
+    "previousClose": "Rs4,141",
+    "dayChange": -0.7,
+    "priceBucket": "Above Rs2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 13% YoY",
+    "netProfitTrend": "Up 16% YoY",
+    "debtToEquity": "0.00",
+    "operatingCashFlow": "Positive",
+    "roe": "27.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs4,475",
+    "low52w": "Rs2,910",
+    "weekHigh": "Rs4,198",
+    "weekLow": "Rs4,055",
+    "highlights": [
+      "Debt-free profile supports stability.",
+      "Return ratios remain strong.",
+      "Order visibility can support long-term interest."
+    ],
+    "risks": [
+      "Execution timing on large defense orders can create volatility."
+    ]
+  },
+  {
+    "name": "Indian Railway Finance Corporation",
+    "symbol": "IRFC",
+    "sector": "Financial Services",
+    "price": "Rs176",
+    "previousClose": "Rs174",
+    "dayChange": 0.9,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 6% YoY",
+    "netProfitTrend": "Up 5% YoY",
+    "debtToEquity": "7.85",
+    "operatingCashFlow": "Mixed",
+    "roe": "13.5%",
+    "promoterPledge": "0%",
+    "high52w": "Rs229",
+    "low52w": "Rs116",
+    "weekHigh": "Rs179",
+    "weekLow": "Rs168",
+    "highlights": [
+      "Retail investors often track it because the share price is approachable.",
+      "The business remains profitable.",
+      "Government-linked profile keeps it on many watchlists."
+    ],
+    "risks": [
+      "High leverage means it should be reviewed carefully."
+    ]
+  },
+  {
+    "name": "Tata Consumer Products",
+    "symbol": "TATACONSUM",
+    "sector": "Consumer Staples",
+    "price": "Rs1,178",
+    "previousClose": "Rs1,183",
+    "dayChange": -0.4,
+    "priceBucket": "Rs500-2000",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 10% YoY",
+    "netProfitTrend": "Up 11% YoY",
+    "debtToEquity": "0.14",
+    "operatingCashFlow": "Positive",
+    "roe": "16.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs1,255",
+    "low52w": "Rs860",
+    "weekHigh": "Rs1,196",
+    "weekLow": "Rs1,166",
+    "highlights": [
+      "Consumer demand tends to be steadier than cyclical sectors.",
+      "Low debt supports quality.",
+      "Well-known brands can feel easier for new users to understand."
+    ],
+    "risks": [
+      "Input costs and competitive pricing can pressure margins."
+    ]
+  },
+  {
+    "name": "Suzlon Energy",
+    "symbol": "SUZLON",
+    "sector": "Renewable Energy",
+    "price": "Rs58",
+    "previousClose": "Rs56",
+    "dayChange": 3.2,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "Volume Spike",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 8% YoY",
+    "netProfitTrend": "Volatile",
+    "debtToEquity": "0.28",
+    "operatingCashFlow": "Mixed",
+    "roe": "15.6%",
+    "promoterPledge": "0%",
+    "high52w": "Rs63",
+    "low52w": "Rs34",
+    "weekHigh": "Rs58",
+    "weekLow": "Rs53",
+    "highlights": [
+      "Low share price and high volume make it popular with short-term traders.",
+      "Business quality has improved.",
+      "Renewable energy themes continue to attract interest."
+    ],
+    "risks": [
+      "Earnings are still less steady than mature large-cap names."
+    ]
+  },
+  {
+    "name": "Zomato",
+    "symbol": "ETERNAL",
+    "sector": "Internet Consumer",
+    "price": "Rs214",
+    "previousClose": "Rs216",
+    "dayChange": -1.1,
+    "priceBucket": "Rs100-500",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Profitable",
+    "revenueTrend": "Up 23% YoY",
+    "netProfitTrend": "Improving",
+    "debtToEquity": "0.05",
+    "operatingCashFlow": "Positive",
+    "roe": "9.8%",
+    "promoterPledge": "0%",
+    "high52w": "Rs248",
+    "low52w": "Rs146",
+    "weekHigh": "Rs221",
+    "weekLow": "Rs208",
+    "highlights": [
+      "Fast revenue growth keeps it on many watchlists.",
+      "Low debt helps financial stability.",
+      "The stock gets heavy user attention."
+    ],
+    "risks": [
+      "Valuation and competition require close review."
+    ]
+  },
+  {
+    "name": "Vodafone Idea",
+    "symbol": "IDEA",
+    "sector": "Telecom",
+    "price": "Rs14",
+    "previousClose": "Rs14.4",
+    "dayChange": -2.9,
+    "priceBucket": "Under Rs100",
+    "volumeBucket": "High Volume",
+    "profitStatus": "Loss-making",
+    "revenueTrend": "Flat",
+    "netProfitTrend": "Negative",
+    "debtToEquity": "Very High",
+    "operatingCashFlow": "Negative",
+    "roe": "Negative",
+    "promoterPledge": "Not Ideal",
+    "high52w": "Rs19",
+    "low52w": "Rs9.8",
+    "weekHigh": "Rs14.8",
+    "weekLow": "Rs14",
+    "highlights": [
+      "Frequently watched because of price accessibility and market interest.",
+      "Telecom headlines can move sentiment quickly."
+    ],
+    "risks": [
+      "Losses, leverage, and funding pressure remain major concerns."
+    ]
+  }
+]
